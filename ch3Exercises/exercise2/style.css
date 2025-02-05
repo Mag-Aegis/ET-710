@@ -1,0 +1,22 @@
+/* . . . When building a site with more than one page, you should use an external CSS style sheet.
+   This:
+   · Allows all pages to use the same style rules (rather than repeating them in each page).
+   · Keeps the content separate from how the page looks.
+   · Means you can charset the style used across all page by altering just one file (rather than each individual page) */
+/* Exercise 2 create the following text with font color */
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Class Activity 3 - CSS</title>
+      <style type="text/css"
+         body { background-color: yellow; }
+	 h1 { color: red; }
+	 p{ color: green; }
+      </style>
+</head>
+<body><h1>Potatoes</h1><p> There are dozens of different potato varieties.
+	They are usually described as early, second early and main crop.</p>
+</body>
+</html>

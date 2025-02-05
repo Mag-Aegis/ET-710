@@ -1,0 +1,29 @@
+/* exercise 6	CSS stylesheet*/
+/* with added css from exc5 */
+.fontWeight {
+    font-weight: bold;
+    font-size: 20px;
+}
+.fontStyle {
+    font-style: oblique;
+    font-size: 200%
+}
+.fontStretch {
+    font-stretch: condensed;
+    font-size: 1.5em;
+}
+h1 {
+    color:violet;
+    font-family: courier;
+    text-align: center;
+}
+.intro {
+    color: green;
+    font-family: georgia;
+    text-align: justify
+}
+.author {
+    font-family: "monotype corsiva";
+    color: blue;
+    text-align: right;
+}

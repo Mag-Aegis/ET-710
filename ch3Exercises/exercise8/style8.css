@@ -1,0 +1,15 @@
+/* BORDERS	CSS file for exc8 */
+.page_border {
+    border: dashed 5px red;
+    font-size: 30px;
+}
+/* MARGINS	CSS file extended */
+.m1 {
+    margin-right: 100px; border: solid 10px green;
+}
+.m2 {
+    margin: 50px; border: solid 10px green;
+}
+.m3 {
+    margin: 50px 100px; border: solid 10px green;
+}

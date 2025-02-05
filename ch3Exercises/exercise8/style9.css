@@ -1,0 +1,48 @@
+/* margins and borders		CSS sheet for exc9 */
+.margin1 {
+    margin-top: 100px;
+    border: dotted green 3px;
+}
+.margin1 {
+    margin: 30px;
+    border: inset blue 10px;
+}
+.margin1 {
+    margin: 60px;
+    border: outset red;
+}
+
+/* now featuring padding */
+
+.padding1 {
+    padding-left: 30px; border: 10px inset orange;
+}
+/* A padding with one value means that the value is added to all sides. Example :) apply 50px of padding to all sides of an element*/
+
+.padding2 {
+    padding: 30px; border: 10px inset orange;
+}
+/* padding with two values-
+A shorthand to add padding is by giving two values. The first value is for the top and bottom padding, and the second value is for the left and right padding. Example :) apply 30px of padding to the top and bottom, and 100px to left and right of an element */
+
+.padding3 {
+    padding: 30px 100px; border: 10px inset orange;
+}
+/* Padding with four values-
+Another shorthand to add padding is by four values, where the values are in clockwise order: top, right, bottom, left. Example :') apply 10px to top padding, 5px to right padding, 30px to bottom padding, and 100px to left padding*/
+.padding4 {
+    padding: 10px 5px 30px 100px ; border: 10px inset orange;
+}
+
+/* Example :) Create three paragraphs and apply three different padding to each of them. */
+.one {
+    border: ridge green;
+}
+.two {
+    padding:20px;
+    border: solid gray 2px;
+}
+.three {
+    padding-top: 50px;
+    border: dotted black;
+}

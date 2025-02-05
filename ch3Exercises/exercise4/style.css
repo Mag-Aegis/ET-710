@@ -1,0 +1,10 @@
+/* exercise 4	CSS stylesheet*/
+.fontWeight {
+    font-weight: bold;
+}
+.fontStyle {
+    font-style: oblique;
+}
+.fontStretch {
+    font-stretch: condensed;
+}
