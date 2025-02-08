@@ -1,0 +1,5 @@
+
+.images img { /* images selector with img element specificity */
+    width: 30px;
+    height: 30px;
+}
