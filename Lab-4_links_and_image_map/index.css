@@ -1,3 +1,15 @@
+html {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/Free-leaf-hd-wallpapers.jpg");
+
+    height: auto;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: center;
+}
+
+
 *{
     box-sizing: border-box;
 } /* declaration with a universal selector*/
@@ -9,13 +21,21 @@
 
 .header { /* with a class identifier for our header */
     width: 80%; margin: 1em auto; box-shadow: 5px 5px 5px black; padding: 20px;
-    font-size: 30px; font-weight: 600; text-align: center; background-color: white;
+    font-size: 30px; font-weight: 600; text-align: center; background-color: #CAFFCE;
+}
+
+.image_main { /* with a class identifier for images */
+    border:solid green;
+    height: 80%;
+    width: 80%;
+    border-radius: 20%;
 }
 
 .images { /* with a class identifier for images */
     border:solid green;
     height: 50%;
     width: 50%;
+    border-radius: 4px;
 }
 
 .images img { /* images selector with img element specificity */
