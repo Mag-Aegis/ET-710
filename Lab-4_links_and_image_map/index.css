@@ -38,17 +38,18 @@ html {
     border-radius: 4px;
 }
 
-.images img { /* images selector with img element specificity */
-    width: 40%;
-    height: 400px;
-
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
 
 .source_links { /* for those cool links to the train sites */
     text-align: center;
     font-size: 10;
+}
+
+.social_media {
+    height: 50%;
+    width: 50%;
+    border-radius: 4px;
+}
+.social_media img { /* with a class identifier for images */
+    width: 30px;
+    height: 30px;
 }
