@@ -1,8 +1,4 @@
-*{
-    box-sizing: border-box;
-} /* declaration with a universal selector*/
 
-/* .container
 {
     background-color: lightgray; width: 100%; height: auto;
 } */
@@ -41,7 +37,6 @@
 
  *body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  padding: 20px;
 }
 
 .container {
