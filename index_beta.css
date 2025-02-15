@@ -1,0 +1,42 @@
+
+
+html { background-color: #8299DB; }
+
+main.maincontainer {
+    width: 70%;
+    margin:10%;
+    display: flex; flex-direction: row;
+    justify-content: space-evenly;
+    align-items: row; }
+
+p.msg{ font-family: "arial black"}
+p#parag { font-weight: bolder; color: blue; font-size: 175% }
+p {text-align: left;}
+p.The{ color: Orange; font-family: italic "mathjax"; }
+
+section.photo1 { width: 400px; height: 350px; border-radius: 11px; box-shadow 20px 200px 85px aliceblue; overflow: 2%; margin: 2em;  }
+
+section.photo2 { width: 400px; height: 350px; border-radius: 2px; margin: 2em; overflow: 2%; }
+section.photo3 { width: 400px; height: 350px; border-radius:10px; margin: 2em; }
+section.photo4 { width: 400px; height: 350px; border-radius: 2px; margin: 2em;}
+
+img.photo1 {
+    border: aliceblue; height: 300px; width: 300px; border-radius: 20px; }
+    
+
+img.photo2 { width: 300px; height: 300px; display: block; border: 10px outset red; }
+
+img.photo3 { width: 300px; height: 300px; display: oblique; border: dotted 2px purple; margin: auto; }
+
+img.photo4 { width: 300px; height: 300px; display: block; border: 30px inset lightcoral; }
+
+div.photoinfo
+{
+    background-color: aliceblue;
+    padding: 1em;
+    height: 60%; text-shadow: -10px 10px 5px red; }
+
+.photoinfo{ padding: 1em; }
+.photoinfo:nth-child(1){background-color: magenta;padding: 1em;}
+.photoinfo:nth-child(2){background-color: aliceblue; flex-wrap: wrap; padding: 1em;}
+.photoinfo:nth-child(3){background-color: orange;padding: 1em;}

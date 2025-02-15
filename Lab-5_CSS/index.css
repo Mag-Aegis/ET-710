@@ -1,41 +1,34 @@
-html { background-color: #8299DB; }
+/* browser zoom */
+html {
+    background-color: #8299DB;
+    box-sizing: border-box;
+    display: center;
+}
+
+h1 { text-align: center;}
 
 main.maincontainer {
-    width: 70%;
-    margin:10%;
-    display: flex; flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center; }
+    width: 90%;
+    margin:1%;
+    display: flex;
+    padding: 8px;
+    border: 10px;
+    justify-content: space-evenly; flex-direction: row;
+    flex-wrap: contain; }
 
-p {text-align: center;}
-p.The{ color: Orange; font-family: italic "mathjax"; }
+p { text-align: left; text: justify; }
+p.msg { font-family: "arial black" }
+em#parag { font-weight: bolder; color: blue; font-size: 175%; }
+ 
+section.photos { width: 400px; height: 250px; margin: 2em; overflow: 1%; }
 
-section.photo1 { width: 400px; height: 350px; border-radius: 11px; box-shadow 20px 200px 85px aliceblue; overflow: 2%; margin: 1em;  }
+img.photo1 { width: 100%; height: 100%; border-radius: 200px; border: 7px ridge padding: 30px;
+box-shadow: 0 0 20px 20px aliceblue; }
 
-section.photo2 { width: 400px; height: 350px; border-radius: 2px; margin: 1em; overflow: 2%; }
-section.photo3 { width: 400px; height: 350px; border-radius:10px; margin: 50px 20px; }
-section.photo4 { width: 400px; height: 350px; border-radius: 2px oblique}
+img.photo2 { width: 100%; height: 100%; display: block; border-radius: 200px; border: 10px outset green; }
 
-img.photo1 {
-    border: aliceblue;
-    height: 300px;
-    width: 300px;
-    border-radius: 20px; }
-    
+img.photo3 { width: 100%; height: 100%; display: oblique;
+border: ridge -5px #3A2722; box-shadow: 0 0 5px 5px }
 
-img.photo2 { width: 300px; height: 300px; display: block; border: 10px outset red; }
-
-img.photo3 { width: 300px; height: 300px; display: oblique; border: dotted 2px purple; margin: auto; text-shadow: -10px 10px 5px red; }
-
-img.photo4 { width: 20%; height: 20%; display: block; border: 30px inset lightcoral; }
-
-div.photoinfo
-{
-    background-color: aliceblue;
-    padding: 1em;
-    height: 60%; text-shadow: -10px 10px 5px red; }
-
-.photoinfo{ padding: 1em; }
-.photoinfo:nth-child(1){background-color: magenta;padding: 1em;}
-.photoinfo:nth-child(2){background-color: aliceblue; flex-wrap: wrap; padding: 1em;}
-.photoinfo:nth-child(3){background-color: orange;padding: 1em;}
+img.photo4 { width: 100%; height: 100%; display: block;
+border: 8px inset lightcoral; }
