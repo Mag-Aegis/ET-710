@@ -139,7 +139,7 @@ section.card {
     width: 300px;
     height: 270px;
     box-shadow: 1px -1px 1px #5E3F9F;
-    border-radius: 6px;
+    border-radius: 5px;
     margin: 1em;
 }
 
@@ -152,7 +152,7 @@ height: 95%;
 div.cardinfo:hover {
     background-color: #89C9A9;
     box-shadow: 0px 0px 6px 2px black;
-    border-radius: 8px;
+    border-radius: 5px;
     transform: scale(1.01);
     font-size: 1.05em;
     text-decoration: none;
