@@ -1,0 +1,158 @@
+/* Lab 8 CSS */
+
+.colorcontainer {
+    border: solid gray 1px;
+    height: 200px;
+}
+
+.rgb1, .rgb2, .rgb3, .rgb4 {
+    width: 200px;
+    height: 200px;
+    border: ridge black 3px;
+    float: left;
+    margin-right: 10px;
+}
+
+.rgb1 {
+    background-color: rgb(242, 808,30 );
+}
+
+.rgb2 {
+    background-color: rgb(127, 186, 31 );
+}
+
+.rgb3 {
+    background-color: rgb(1, 164, 07 );
+}
+
+.rgb4 {
+    background-color: rgb(242, 808, 30 );
+}
+
+.hex1, .hex2, .hex3 {
+    width: 200px;
+    height: 200px;
+    border: ridge black 3px;
+    float: left;
+    margin-right: 10px;
+}
+
+.hex1 {
+    background-color: #ad1457;
+}
+
+.hex1 {
+    background-color: #ad1457;
+}
+
+.hex1 {
+    background-color: #ad1457;
+} 
+
+img { width: 100%; display: block; }
+
+.imgcontainer {
+    width: 60%;
+    margin: 1em auto;
+    box-shadow: 1px 1px 5px gray;
+    position: relative;
+}
+
+.imgtitle {
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 20%;
+    right: 20;
+    background-color: #89A9C9;
+    text-align: center;
+    padding: 1em;
+}
+
+.topnave {
+    background-color: #89A9C9;
+    position: fixed;
+    top: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+.topnav a {
+    display: inline-block;
+    padding: 1em 3em;
+    color: whitesmoke;
+    text-decoration;
+}
+.topnav a:hover {
+    background-color: #89A9C9;
+}
+
+/* Linear gradient */
+
+.mesh1, .mesh2, .mesh3 {
+    width: 60%;
+    height: 200px;
+}
+
+.mesh1 {
+    background-image: linear-gradient( #89A9C9, whitesmoke );
+}
+
+.mesh2 {
+    background-image: linear-gradient( to right, #89A9C9, whitesmoke );
+}
+
+.mesh3 {
+    background-image: linear-gradient( to top left #89A9C9, whitesmoke );
+}
+
+.heroinfo {
+    position: absolute;
+    top: 30%;
+    bottom: 30%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    border: solid 1px gray;
+}
+
+.heroimage {
+    background-image: linear-gradient( to right, rgba(255,255,255, 0.6 ), rgba(255,255,255, 0.6 ) ), "images/images/logo-neverland-altar-of-gaming.png" );
+    background-size: 100% 100%;
+    height: 400px;
+    width: 700px;
+}
+
+.heroinfo a:hover {
+    background-color: red;
+}
+
+.sepia1 {
+    filter: sepia(10%);
+}
+.sepia {
+    filter: sepia(60%);
+}
+.sepia {
+    filter: sepia(100%);
+}
+
+.blur1 {
+    filter: blur(2px);
+}
+.blur2 {
+    filter: blur(10px);
+}
+.blur3 {
+    filter: blur(20px);
+}
+
+.invert1 {
+    filter: invert(2%);
+}
+.invert {
+    filter: invert(60%);
+}
+.invert {
+    filter: invert(100%);
+}
