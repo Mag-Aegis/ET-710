@@ -1,5 +1,4 @@
 /* Lab 8 CSS */
-
 .colorcontainer {
     border: solid gray 1px;
     height: 200px;
@@ -83,12 +82,12 @@ img { width: 100%; display: block; }
     color: whitesmoke;
     text-decoration;
 }
+
 .topnav a:hover {
     background-color: #89A9C9;
 }
 
 /* Linear gradient */
-
 .mesh1, .mesh2, .mesh3 {
     width: 60%;
     height: 200px;
@@ -103,7 +102,7 @@ img { width: 100%; display: block; }
 }
 
 .mesh3 {
-    background-image: linear-gradient( to top left #89A9C9, whitesmoke );
+    background-image: linear-gradient( to top left, #89A9C9, whitesmoke );
 }
 
 .heroinfo {
@@ -117,7 +116,8 @@ img { width: 100%; display: block; }
 }
 
 .heroimage {
-    background-image: linear-gradient( to right, rgba(255,255,255, 0.6 ), rgba(255,255,255, 0.6 ) ), "images/images/logo-neverland-altar-of-gaming.png" );
+    background-image: linear-gradient( to right, rgba(255,255,255, 0.6 ),
+    rgba(255,255,255, 0.6 ) ) url("https://pm1.narvii.com/6928/a4268f312abf0eb417b6a93a7f457aaedf2a8e05r1-1024-559v2_hq.jpg") );
     background-size: 100% 100%;
     height: 400px;
     width: 700px;
@@ -127,22 +127,27 @@ img { width: 100%; display: block; }
     background-color: red;
 }
 
+/* Sepia CSS */
 .sepia1 {
     filter: sepia(10%);
 }
-.sepia {
+
+.sepia2 {
     filter: sepia(60%);
 }
-.sepia {
+
+.sepia3 {
     filter: sepia(100%);
 }
 
 .blur1 {
     filter: blur(2px);
 }
+
 .blur2 {
     filter: blur(10px);
 }
+
 .blur3 {
     filter: blur(20px);
 }
@@ -150,9 +155,53 @@ img { width: 100%; display: block; }
 .invert1 {
     filter: invert(2%);
 }
+
 .invert {
     filter: invert(60%);
 }
+
 .invert {
     filter: invert(100%);
+}
+
+/* Lab Exercises */
+.imgcontainerv2 {
+    width: 1000px;
+    height: 700px;
+    margin: 2em auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+section.exc {
+    width: 300px;
+    height: 400px;
+    box-shadow: 1px -1px 1px #5E3F9F;
+}
+
+div.excinfo {
+    height: 95%;
+    padding: 1em;
+}
+
+img.vertimg1 {
+	width: 100%;
+	height: 40%;
+	display: block; 
+    filter: invert(100%);
+}
+
+img.vertimg2 {
+	width: 100%;
+	height: 40%;
+	display: block; 
+    filter: blur(10px);
+}
+
+img.vertimg3 {
+	width: 100%;
+	height: 40%;
+	display: block; 
+    filter: linear-gradient(60%);
 }
