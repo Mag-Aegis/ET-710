@@ -1,4 +1,8 @@
 /* Lab 8 CSS */
+
+h1.name {
+    padding: 2em;
+}
 .colorcontainer { height: 200px; }
 
 .rgb1, .rgb2, .rgb3, .rgb4 {
@@ -31,7 +35,6 @@
 
 .hex1 { background-color: #ad1457; } 
 
-img.imgPostion_Block { width: 100%; display: block; }
 
 .imgcontainer {
     width: 60%;
@@ -40,6 +43,9 @@ img.imgPostion_Block { width: 100%; display: block; }
     position: relative;
     padding: 1.5em;
 }
+
+/* Position block */
+img.imgPostion_Block { width: 100%; display: block; }
 
 .imgtitle {
     position: absolute;
@@ -90,6 +96,16 @@ img.imgPostion_Block { width: 100%; display: block; }
 }
 
 /* Hero Image block */
+.heroimage {
+    background-image: linear-gradient( to right, rgba(255,255,255, 0.6 ),
+    rgba(255,255,255, 0.6 )), url("https://pm1.narvii.com/6928/a4268f312abf0eb417b6a93a7f457aaedf2a8e05r1-1024-559v2_hq.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 700px;
+    position: relative;
+}
+
 .heroinfo {
     position: absolute;
     top: 30%;
@@ -97,20 +113,23 @@ img.imgPostion_Block { width: 100%; display: block; }
     left: 20%;
     right: 20%;
     text-align: center;
-    border: solid 1px gray;
-}
-
-.heroimage {
-    background-image: linear-gradient( to right, rgba(255,255,255, 0.6 ),
-    rgba(255,255,255, 0.6 )), url("https://pm1.narvii.com/6928/a4268f312abf0eb417b6a93a7f457aaedf2a8e05r1-1024-559v2_hq.jpg");
-    background-size: 100% 100%;
-    height: 400px;
-    width: 700px;
-    position: relative;
 }
 
 .heroinfo a:hover {
-    background-color: red;
+    background-color: orange;
+}
+
+.herotext {
+    display: block;
+    padding: 10px 25px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 /* Sepia */
@@ -152,7 +171,11 @@ section.exc {
     box-shadow: 1px -1px 1px #5E3F9F;
 }
 
-div.excinfo {
+.excImage {
+    background-image: linear-gradient( to right, rgba(255,255,255, 0.6 ), rgba(255,255,255, 0.6 )), url("https://www.rollernews.com/img/2023/10/2023-10-01-krupp-604686320.jpg/");
+    background-size: 100% 100%;
+    background-repeat: no repeat;
+    position: relative;
     height: 95%;
     padding: 1em;
 }
