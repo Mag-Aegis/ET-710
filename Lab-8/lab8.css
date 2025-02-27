@@ -1,8 +1,5 @@
 /* Lab 8 CSS */
-.colorcontainer {
-    border: solid gray 1px;
-    height: 200px;
-}
+.colorcontainer { height: 200px; }
 
 .rgb1, .rgb2, .rgb3, .rgb4 {
     width: 200px;
@@ -12,21 +9,13 @@
     margin-right: 10px;
 }
 
-.rgb1 {
-    background-color: rgb(242, 808,30 );
-}
+.rgb1 { background-color: rgb(242, 808,30 ); }
 
-.rgb2 {
-    background-color: rgb(127, 186, 31 );
-}
+.rgb2 { background-color: rgb(127, 186, 31 ); }
 
-.rgb3 {
-    background-color: rgb(1, 164, 07 );
-}
+.rgb3 { background-color: rgb(1, 164, 07 ); }
 
-.rgb4 {
-    background-color: rgb(242, 808, 30 );
-}
+.rgb4 { background-color: rgb(242, 808, 30 ); }
 
 .hex1, .hex2, .hex3 {
     width: 200px;
@@ -36,42 +25,39 @@
     margin-right: 10px;
 }
 
-.hex1 {
-    background-color: #ad1457;
-}
+.hex1 { background-color: #ad1457; }
 
-.hex1 {
-    background-color: #ad1457;
-}
+.hex1 { background-color: #ad1457; }
 
-.hex1 {
-    background-color: #ad1457;
-} 
+.hex1 { background-color: #ad1457; } 
 
-img { width: 100%; display: block; }
+img.imgPostion_Block { width: 100%; display: block; }
 
 .imgcontainer {
     width: 60%;
     margin: 1em auto;
     box-shadow: 1px 1px 5px gray;
     position: relative;
+    padding: 1.5em;
 }
 
 .imgtitle {
     position: absolute;
-    top: 20%;
-    bottom: 20%;
-    left: 20%;
+    top: 5%;
+    bottom: 90%;
+    left: 5%;
     right: 20;
-    background-color: #89A9C9;
+    background-color: rgba( 240, 80, 30, 0.7 );
     text-align: center;
-    padding: 1em;
+    padding: 0.5em;
 }
 
-.topnave {
+/* fixed navigation bar */
+.topnav {
     background-color: #89A9C9;
     position: fixed;
     top: 0%;
+    left: 0%;
     margin: 0%;
     width: 100%;
 }
@@ -80,12 +66,10 @@ img { width: 100%; display: block; }
     display: inline-block;
     padding: 1em 3em;
     color: whitesmoke;
-    text-decoration;
+    text-decoration: none;
 }
 
-.topnav a:hover {
-    background-color: #89A9C9;
-}
+.topnav a:hover { background-color: #89A9C9; }
 
 /* Linear gradient */
 .mesh1, .mesh2, .mesh3 {
@@ -105,6 +89,7 @@ img { width: 100%; display: block; }
     background-image: linear-gradient( to top left, #89A9C9, whitesmoke );
 }
 
+/* Hero Image block */
 .heroinfo {
     position: absolute;
     top: 30%;
@@ -117,61 +102,48 @@ img { width: 100%; display: block; }
 
 .heroimage {
     background-image: linear-gradient( to right, rgba(255,255,255, 0.6 ),
-    rgba(255,255,255, 0.6 ) ) url("https://pm1.narvii.com/6928/a4268f312abf0eb417b6a93a7f457aaedf2a8e05r1-1024-559v2_hq.jpg") );
+    rgba(255,255,255, 0.6 )), url("https://pm1.narvii.com/6928/a4268f312abf0eb417b6a93a7f457aaedf2a8e05r1-1024-559v2_hq.jpg");
     background-size: 100% 100%;
     height: 400px;
     width: 700px;
+    position: relative;
 }
 
 .heroinfo a:hover {
     background-color: red;
 }
 
-/* Sepia CSS */
-.sepia1 {
-    filter: sepia(10%);
-}
+/* Sepia */
+.sepia1 { filter: sepia(10%); }
 
-.sepia2 {
-    filter: sepia(60%);
-}
+.sepia2 { filter: sepia(60%); }
 
-.sepia3 {
-    filter: sepia(100%);
-}
+.sepia3 { filter: sepia(100%); }
 
-.blur1 {
-    filter: blur(2px);
-}
+/* Blur */
+.blur1 { filter: blur(2px); }
 
-.blur2 {
-    filter: blur(10px);
-}
+.blur2 { filter: blur(10px); }
 
-.blur3 {
-    filter: blur(20px);
-}
+.blur3 { filter: blur(20px); }
 
-.invert1 {
-    filter: invert(2%);
-}
+/* Invert */
+.invert1 { filter: invert(2%); }
 
-.invert {
-    filter: invert(60%);
-}
+.invert2 { filter: invert(60%); }
 
-.invert {
-    filter: invert(100%);
-}
+.invert3 { filter: invert(100%); }
 
-/* Lab Exercises */
+
+/*============== Lab Exercises ==================*/
 .imgcontainerv2 {
     width: 1000px;
     height: 700px;
     margin: 2em auto;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
+    clear: both;
 }
 
 section.exc {
