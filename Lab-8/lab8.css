@@ -166,15 +166,15 @@ img.imgPostion_Block { width: 100%; display: block; }
 }
 
 section.exc8_HeroSection {
-    width: 400px;
-    height: 500px;
-    box-shadow: 1px -1px 1px #5E3F9F;
+    width: 600px;
+    height: 600px;
+    margin: 1em;
 }
 
 .excImage1 {
-    background-image: linear-gradient( to right, rgba(78, 110, 180, .6 ), rgba(25,25,5, 0.6 )), url("https://thumbs.dreamstime.com/b/sci-fi-futuristic-vertical-habitat-forest-lake-generative-ai-illustration-275520333.jpg");
+    background-image: invert(20%), url("https://thumbs.dreamstime.com/b/sci-fi-futuristic-vertical-habitat-forest-lake-generative-ai-illustration-275520333.jpg");
     background-size: 100% 100%;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     position: relative;
     height: 95%;
     padding: 1em;
@@ -189,13 +189,14 @@ section.exc8_HeroSection {
     right: 20;
     background-color: rgba( 240, 80, 30, 0.7 );
     text-align: center;
+    border: 10px, 10px, 5px, ridge;
     padding: 0.5em;
 }
 
 .excImage2 {
-    background-image: linear-gradient( to right, rgba(6, 152, 154, 0.6 ), rgba( 0 ,255 ,1 , 0.6 )), url("https://w0.peakpx.com/wallpaper/486/999/HD-wallpaper-fantasy-ship-science-fiction-technomancer-futuristic-spaceship-vertical-portrait-display.jpg");
+    background-image: sepia(), url("https://w0.peakpx.com/wallpaper/486/999/HD-wallpaper-fantasy-ship-science-fiction-technomancer-futuristic-spaceship-vertical-portrait-display.jpg");
     background-size: 100% 100%;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     position: relative;
     height: 95%;
     padding: 1em;
@@ -208,7 +209,7 @@ section.exc8_HeroSection {
     bottom: 90%;
     left: 5%;
     right: 20;
-    background-color: rgba( 240, 80, 30, 0.7 );
+    background-color: rgba( 240, 80, 30, 0.1 );
     text-align: center;
     padding: 0.5em;
 }
@@ -216,7 +217,7 @@ section.exc8_HeroSection {
 .excImage3 {
     background-image: linear-gradient( to right, rgba(135,39 ,255, 0.6 ), rgba(25,25,5, 0.6 )), url("http://www.scififantasyhorror.co.uk/wp-content/gallery/sviatoslav-gerasimchuk/the-digital-art-of-sviatoslav-gerasimchuk-5.jpg");
     background-size: 100% 100%;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     position: relative;
     height: 95%;
     padding: 1em;
@@ -224,12 +225,12 @@ section.exc8_HeroSection {
 }
 
 .text_INFO_3 {
-   position: absolute;
+    position: absolute;
     top: 5%;
     bottom: 90%;
     left: 5%;
     right: 20;
-    background-color: rgba( 240, 80, 30, 0.7 );
+    background-color: rgba( 240, 80, 30, 0.1 );
     text-align: center;
     padding: 0.5em;
 }

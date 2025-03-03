@@ -133,6 +133,7 @@ em#parag { justify: top;font-weight: bolder; color: #5E3F9F; font-size: 175%; }
     align-items: center;
     clear: both;
 }
+
 p.sectionTitle { display: flex; text-align: left; padding: auto; }
 
 section.card {
@@ -143,7 +144,7 @@ section.card {
     margin: 1em;
 }
 
-div.cardinfo{
+div.cardinfo {
 background-color: #F9F9F9;
 padding: 1em;
 height: 95%;
