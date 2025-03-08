@@ -54,7 +54,7 @@
 
 .headertitle {
     text-align: center;
-    color: whitesmoke;
+    color: lightcyan;
     width: 40%;
     font-size: 2em;
 }
@@ -77,46 +77,41 @@
     color: blue;
 }
 
-li { list-style: none; text-align: left; }
 
 .footer {
-    width: 100%; margin: 1em auto; box-shadow: 5px 5px 5px lightgray;
+    width: 100%; box-shadow: 5px 5px 5px lightgray;
     display: flex;
     justify-content: center;
-    padding: 20px;
     font-size: small;
-    text-align: center; 
-    height: 275px;
     background-color: whitesmoke;
     border-radius: 2px;
 }
 	
 .footercustomer, .footerfollow, .footermyaccount {
     width: 30%;
-    border: solid 1px red;
-    padding: 2em;
+    padding: 0em 1em;
     margin-left: -40px;
     text-align: left;
 }
 
-.footerlist {
-    text-decoration: none;
+.footerlist li{
+    margin-left: -40px;
+    list-style: none;
     text-align: left;
+    padding: 0.5em 0em;
 }
 
 .footertitle {
     text-align: left;
+    font-weight: bolder;
+    font-size: 1.2em;
 }
-
-.footercustomer p {
-   font-size: 1em;
-   font-weight: bolder;
-   text-align: left;
-}
-
-
 
 .socialmedia {
+    display: flex;
+}
+
+.socialmedia a{
     display: inline-block;
     width: 10%;
     margin-right: 5%;
