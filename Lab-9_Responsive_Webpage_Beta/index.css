@@ -19,7 +19,7 @@
 @media only screen and ( max-width: 800px )
 {
     .maincontainer { height: auto; }
-    .card { background-color: lightblue; width: 40%; }
+    .card { background-color: blue; width: 40%; }
     .headertitle { width: 90%; padding: 1em; font-size: 3em; }
     .header { flex-wrap: wrap; }
     .navlink { width: 100%; justify-content: center; }
