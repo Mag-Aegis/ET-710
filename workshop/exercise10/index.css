@@ -1,0 +1,22 @@
+/* index.css		CSS for lab3 */
+*{ box-sizing: border-box; }
+.container {
+    background-color: lightgray;
+    width: 100%;
+    height: auto;
+    border: solid blue;
+}
+.header {
+    width: 80%;
+    margin: 1em auto;
+    box-sizing: 5px 5px 5px black;
+    padding: 20 px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: white;
+}
+.images{
+    border: solid green;
+    height: auto;
+}

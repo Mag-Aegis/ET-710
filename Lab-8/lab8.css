@@ -1,0 +1,246 @@
+/* Lab 8 CSS */
+
+h1.name {
+    padding: 2em;
+}
+.colorcontainer { height: 200px; }
+
+.rgb1, .rgb2, .rgb3, .rgb4 {
+    width: 200px;
+    height: 200px;
+    border: ridge black 3px;
+    float: left;
+    margin-right: 10px;
+}
+
+.rgb1 { background-color: rgb(242, 808,30 ); }
+
+.rgb2 { background-color: rgb(127, 186, 31 ); }
+
+.rgb3 { background-color: rgb(1, 164, 07 ); }
+
+.rgb4 { background-color: rgb(242, 808, 30 ); }
+
+.hex1, .hex2, .hex3 {
+    width: 200px;
+    height: 200px;
+    border: ridge black 3px;
+    float: left;
+    margin-right: 10px;
+}
+
+.hex1 { background-color: #ad1457; }
+
+.hex1 { background-color: #ad1457; }
+
+.hex1 { background-color: #ad1457; } 
+
+
+.imgcontainer {
+    width: 60%;
+    margin: 1em auto;
+    box-shadow: 1px 1px 5px gray;
+    position: relative;
+    padding: 1.5em;
+}
+
+/* Position block */
+img.imgPostion_Block { width: 100%; display: block; }
+
+.imgtitle {
+    position: absolute;
+    top: 5%;
+    bottom: 90%;
+    left: 5%;
+    right: 20;
+    background-color: rgba( 240, 80, 30, 0.7 );
+    text-align: center;
+    padding: 0.5em;
+}
+
+/* fixed navigation bar */
+.topnav {
+    background-color: #89A9C9;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+.topnav a {
+    display: inline-block;
+    padding: 1em 3em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.topnav a:hover { background-color: #89A9C9; }
+
+/* Linear gradient */
+.mesh1, .mesh2, .mesh3 {
+    width: 60%;
+    height: 200px;
+}
+
+.mesh1 {
+    background-image: linear-gradient( #89A9C9, whitesmoke );
+}
+
+.mesh2 {
+    background-image: linear-gradient( to right, #89A9C9, whitesmoke );
+}
+
+.mesh3 {
+    background-image: linear-gradient( to top left, #89A9C9, whitesmoke );
+}
+
+/* Hero Image block */
+.heroimage {
+    background-image: linear-gradient( to right, rgba(255,255,255, 0.6 ),
+    rgba(255,255,255, 0.6 )), url("https://pm1.narvii.com/6928/a4268f312abf0eb417b6a93a7f457aaedf2a8e05r1-1024-559v2_hq.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 700px;
+    position: relative;
+}
+
+.heroinfo {
+    position: absolute;
+    top: 30%;
+    bottom: 30%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+}
+
+.heroinfo a:hover {
+    background-color: orange;
+}
+
+.herotext {
+    display: block;
+    padding: 10px 25px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* Sepia */
+.sepia1 { filter: sepia(10%); }
+
+.sepia2 { filter: sepia(60%); }
+
+.sepia3 { filter: sepia(100%); }
+
+/* Blur */
+.blur1 { filter: blur(2px); }
+
+.blur2 { filter: blur(10px); }
+
+.blur3 { filter: blur(20px); }
+
+/* Invert */
+.invert1 { filter: invert(2%); }
+
+.invert2 { filter: invert(60%); }
+
+.invert3 { filter: invert(100%); }
+
+
+/*============== Lab Exercises ==================*/
+.imgcontainerv2 {
+    width: 1000px;
+    height: 700px;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    clear: both;
+}
+
+section.exc8_HeroSection {
+    width: 600px;
+    height: 600px;
+    margin: 1em;
+}
+
+.excImage1 {
+    background-image: invert(20%), url("https://thumbs.dreamstime.com/b/sci-fi-futuristic-vertical-habitat-forest-lake-generative-ai-illustration-275520333.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 95%;
+    padding: 1em;
+    margin: 1em;
+}
+
+.text_INFO_1 {
+   position: absolute;
+    top: 5%;
+    bottom: 90%;
+    left: 5%;
+    right: 20;
+    background-color: rgba( 240, 80, 30, 0.7 );
+    text-align: center;
+    border: 10px, 10px, 5px, ridge;
+    padding: 0.5em;
+}
+
+.excImage2 {
+    background-image: sepia(), url("https://w0.peakpx.com/wallpaper/486/999/HD-wallpaper-fantasy-ship-science-fiction-technomancer-futuristic-spaceship-vertical-portrait-display.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 95%;
+    padding: 1em;
+    margin: 1em;
+}
+
+.text_INFO_2 {
+   position: absolute;
+    top: 5%;
+    bottom: 90%;
+    left: 5%;
+    right: 20;
+    background-color: rgba( 240, 80, 30, 0.1 );
+    text-align: center;
+    padding: 0.5em;
+}
+
+.excImage3 {
+    background-image: linear-gradient( to right, rgba(135,39 ,255, 0.6 ), rgba(25,25,5, 0.6 )), url("http://www.scififantasyhorror.co.uk/wp-content/gallery/sviatoslav-gerasimchuk/the-digital-art-of-sviatoslav-gerasimchuk-5.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 95%;
+    padding: 1em;
+    margin: 1em;
+}
+
+.text_INFO_3 {
+    position: absolute;
+    top: 5%;
+    bottom: 90%;
+    left: 5%;
+    right: 20;
+    background-color: rgba( 240, 80, 30, 0.1 );
+    text-align: center;
+    padding: 0.5em;
+}
+
+p { text-align: justify; padding: auto; }
+
+p.msg3 { font-family: "Times"; font-size: small; text-indent: 3em;
+    font-stretch: normal; color: #282220; position: absolute;
+    top: 5%;
+    bottom: 90%;
+    left: 5%;
+    right: 20;
+}

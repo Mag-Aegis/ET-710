@@ -1,0 +1,55 @@
+html {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/Free-leaf-hd-wallpapers.jpg");
+
+    height: auto;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: center;
+}
+
+
+*{
+    box-sizing: border-box;
+} /* declaration with a universal selector*/
+
+/* .container
+{
+    background-color: lightgray; width: 100%; height: auto;
+} */
+
+.header { /* with a class identifier for our header */
+    width: 80%; margin: 1em auto; box-shadow: 5px 5px 5px black; padding: 20px;
+    font-size: 30px; font-weight: 600; text-align: center; background-color: #CAFFCE;
+}
+
+.image_main { /* with a class identifier for images */
+    border:solid green;
+    height: 80%;
+    width: 80%;
+    border-radius: 20%;
+}
+
+.images { /* with a class identifier for images */
+    border:solid green;
+    height: 50%;
+    width: 50%;
+    border-radius: 4px;
+}
+
+
+.source_links { /* for those cool links to the train sites */
+    text-align: center;
+    font-size: 10;
+}
+
+.social_media {
+    height: 50%;
+    width: 50%;
+    border-radius: 4px;
+}
+.social_media img { /* with a class identifier for images */
+    width: 30px;
+    height: 30px;
+}

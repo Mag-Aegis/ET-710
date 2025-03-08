@@ -1,0 +1,49 @@
+<!-- Text Border, Margin & Padding
+Every box has three available properties that can be adjusted to control its appearance:
+
+border-
+Every box has a border (even if it is not visible or is specifies to be 0 pixels wide). The border separates the edge of one box from another.
+
+	Border Style
+You can control the style of a border using the border-style property. This property can take the following values:
+ · solid, a single solid line
+ · dotted, a series of square dots (if your border is 2px wide, then the dots are 2px squared with a 2px gap between each dot)
+ · dashed, a series of short lines
+ · dashed, a series of short lines
+ · double, two solid lines (the value of the border-width property creates the sum of the two lines)
+ · groove appears to be carved into the page
+ · ridge appears to stick out from the page
+ · inset appears embedded into the page
+ · outset looks like it is coming out of the screen
+ · hidden / none no border is shown
+border values can be written in one line: border style, border size, and border color: border: dashed 5px red				-->
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS exercise 8</title>
+   <link href="style8.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+   <div>
+      <p class="page_border">How to work with border</p>
+   </div>
+   <!-- margin-
+   Margins sit outside the edge of the border. You can set the width of a margin to create a gap between the borders of two adjacent boxes.
+   The margin property controls the gap between boxes. Its value is commonly given in pixels, although you may also use percentages or ems.
+   Specify margin-
+   You can specificy values for each side of a box using: margin-top, margin-ridge, margin-bottom, margin-left.-->
+   <div> <!-- exc8 extended -->
+      <p class="m1">There are dozens of different potato varieties.</p>
+   </div>
+
+   <div>
+      <p class="m2">There are dozens of different potato varieties.</p>
+   </div>
+
+   <div>
+      <p class="m3">There are dozens of different potato varieties.</p>
+   </div>
+</body>
+</html>

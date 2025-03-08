@@ -1,0 +1,15 @@
+.title1 {
+    text-shadow: 10px 0px 0px black;
+}
+.title2 {
+    text-shadow: 0px 10px 0px black;
+}
+.title3 {
+    text-shadow: 5px 10px 0px black;
+}
+.title4 {
+    text-shadow: 5px 10px 5px black;
+}
+.title5 {
+    text-shadow: 5px 10	30px black;
+}

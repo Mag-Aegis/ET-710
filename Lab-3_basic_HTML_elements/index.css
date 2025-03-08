@@ -1,0 +1,83 @@
+
+{
+    background-color: lightgray; width: 100%; height: auto;
+} */
+
+.header { /* with a class identifier for our header */
+    width: 80%; margin: 1em auto; box-shadow: 5px 5px 5px black; padding: 20px;
+    font-size: 30px; font-weight: 600; text-align: center; background-color: white;
+}
+
+.images { /* with a class identifier for images */
+    border:solid green; height: auto;
+}
+
+.images img { /* images selector with img element specificity */
+    width: 40%;
+    height: 400px;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.source_links { /* for those cool links to the train sites */
+    text-align: center;
+    font-size: 10;
+}
+
+.footer { /* class identifier for page footer */
+    width: 80%; margin: 1em auto; box-shadow: 5px 5px 5px black; padding: 20px;
+    font-size: 30px; font-weight: 600; text-align: center; background-color: white;
+}
+
+
+/* grid css, tables are basic but not really rudimentary to responsive web pages, so instead of remembering tables from long ago; I studied css with grids, lets me understand nuances of CSS and progressive implementations with current web env */
+
+ *body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.item {
+  padding: 10px;
+  text-align: center;
+  background-color: #CABDD7;
+  border-radius: 4px;
+  border: 2px solid #FFFFFF;
+  color: #1D00A0;
+  
+  /* Grid styles  */
+  grid-column-start: auto;
+  grid-column-end: auto;
+  grid-row-start: auto;
+  grid-row-end: auto;
+}
+
+.grid_indices {
+  padding: 10px;
+  text-align: center;
+  background-color: #F2E2FF;
+  border: 2px solid #FFFFFF;
+  color: #1D00A0;
+  font-size: 18px;
+
+.item:nth-child(1) {
+  column-width: 200px;
+  grid-column: span 4;
+  grid-column-end: 5
+}
+
+.item:nth-child(10) {
+  column-width: 200px;
+  grid-row-start: 2;
+}
+
+
+ /* TABLE CSS */

@@ -1,0 +1,11 @@
+/* index_ET-710_landing-page.css */
+html {
+    background-image: url("https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3Jhd3BpeGVsb2ZmaWNlMjFfaWxsdXN0cmF0aW9uX29mX2ZvcmVzdF9ncmVlbl9zcHJpbmdfaW5fdGhlX3N0eV85ODcyOTg1Ny05OGM5LTRjNmItODgxNy0wYmRhN2YxZmEwMWZfMS5qcGc.jpg");
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: center;
+}

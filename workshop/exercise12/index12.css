@@ -1,0 +1,55 @@
+*{box-sizing: border-box; }
+.container { background-color: lightgray; width: 100%; height: auto;
+}
+.header {
+    width: 80%; margin: 1em auto; box-shadow: 5px 5px 5px black; padding: 20px;
+    font-size: 30px; font-weight: 600; text-align: center; background-color: white; 
+}
+.images {
+    border: solid green; height: auto;
+}
+.images img {
+    width: 40%; height: auto; margin-left: 5%; margin-right: 5%;
+}
+/*img1 {
+    border-radius: 60px;
+}
+img2 {
+    border-radius: 50%;
+}*/
+img3 {
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 20px
+}
+img4 {
+    box-shadow: 0 0 5px 20px lightblue;
+}
+Img {
+    width: 30%; margin: calc(10%/6);
+}
+
+/* -- navigation bars -- */
+h2{
+    width:  90%;
+    text-align: center;
+    margin-top: 70px;
+}
+/* To take off the bullet of each list, we can set the list-style-type to non of the <ul>: */
+.navbar {
+    list-style-type: none;
+}
+/* To make the vertical navigation bar with a purple background-color, we can write CSS codes to make changes to the hyperlinks in the list item. Also, display: block; property sets the <a> elements in a block,column, format because <a> element by default is an inline element*/
+.navbar li a {
+    display: block;
+    padding: 8px 16px;
+    color: white;
+    background-color: purple;
+    width: 50%;
+    text-decoration: none;
+}
+/* change the background color of the links when the user clicks on them: */
+.navbar li a:hover {
+    background-color: gray;
+    color:white
+}

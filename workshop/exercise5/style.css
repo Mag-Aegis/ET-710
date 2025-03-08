@@ -1,0 +1,14 @@
+/* exercise 5	CSS stylesheet*/
+/* with added css from exc4 */
+.fontWeight {
+    font-weight: bold;
+    font-size: 20px;
+}
+.fontStyle {
+    font-style: oblique;
+    font-size: 200%
+}
+.fontStretch {
+    font-stretch: condensed;
+    font-size: 1.5em;
+}
