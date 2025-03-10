@@ -58,13 +58,12 @@ section.exc8_HeroSection {
 
 .excImage1 {
     background-image: url("https://images.adsttc.com/media/images/66f4/b4f0/2684/7b18/b6f9/24c9/large_jpg/zhongwei-desert-diamond-hotel-shuishi_16.jpg?1727313152");
-    background-size: 100% 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
     width: 97%;
     height: 95%;
     display: flex;
-    padding: 1em;
     border: 10px, 10px, 5px, ridge black;
 }
 
