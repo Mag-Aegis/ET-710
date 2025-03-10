@@ -1,11 +1,10 @@
 * { box-sizing: border-box; }
 
 /* SCREEN SIZE */
-/* Large screen size 1450px */
-@media only screen and ( max-width: 1450px )
+/* Larger than 1700px */
+@media only screen and ( min-width: 1700px )
 {
     .maincontainer { width: 100%; height: auto; }
-    img.socialmedia { width: auto; height: auto; }
     .card { background-color: lightcoral; width: 40%; }
     .cardtitle { text-align: center; }
     .link {
@@ -14,22 +13,47 @@
     }
     .headertitle { font-size: 1.2em; }
 }
+/* ======Break===Point====================================================*/
 
-/* medium screen size 800 px */
-@media only screen and ( max-width: 800px )
+/* medium screen size [ 800px > 1700px] */
+@media only screen and ( max-width: 1052px )
 {
-    .maincontainer { height: auto; }
-    .card { background-color: blue; width: 40%; }
-    .headertitle { width: 90%; padding: 1em; font-size: 3em; }
+    .maincontainer { height: auto; justify-content: center; }
+    .card { background-color: aquamarine; width: 25%; }
+    .cardtitle { text-align: center; }
+    .headertitle {
+        width: 90%; padding: 1em; font-size: 3em; text-align: center; }
     .header { flex-wrap: wrap; }
-    .navlink { width: 100%; justify-content: center; }
+    .navlinks { width: 100%; justify-content: center; }
+}
+/* ==========================================================================*/
+
+/* mobile screen size  800px */
+@media only screen and ( max-width: 800px ) {
+    .maincontainer { height: auto; }
+    .header { flex-wrap: wrap; }
+    .headertitle { width: 100%; padding: 1em; font-size: 3em; }
+    .card{ background-color: lightskyblue; margin-bottom: 2em; width: 90%; }
+    .cardtitle { text-align: center; }
+    .navlinks { width: 100%; justify-content: center; border: top white; }
+    .footer { flex-wrap: wrap; }
+}
+/* ==========================================================================*/
+
+.header{
+    width: 100%;
+    display: flex;
+    background-color: orange;
+    align-items: center;
+    margin: 2em auto;
 }
 
 /* CARDS */
 .maincontainer {
     border: solid gray 1px;
     width: 100%;
-    margin: 2em auto;
+    margin: 0em auto;
+    padding: 2em;
     display: flex; 
     justify-content: center;
     flex-wrap: wrap;
@@ -38,18 +62,9 @@
 .card {
     border-radius: 10px;
     width: 300px;
-    margin: 1%;
+    margin: .5em;
     border: solid gray 2px;
-    background-color: aquamarine;
     padding: 1%;
-}
-
-.header{
-    width: 100%;
-    display: flex;
-    background-color: orange;
-    align-items: center;
-    margin: 2em auto;
 }
 
 .headertitle {
