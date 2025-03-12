@@ -1,0 +1,32 @@
+/* Project 1 - Theme */
+html { background-color: #F1D4A9; }
+
+.header {
+    width: 100%;
+    position: absolute;
+    border: 2px 2px gray;
+}
+
+.header_image { url("https://images.adsttc.com/media/images/66f4/b4f0/2684/7b18/b6f9/24c9/large_jpg/zhongwei-desert-diamond-hotel-shuishi_16.jpg?1727313152");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: center;
+    width: 97%;
+    height: 95%;
+    display: flex;
+    border: 10px 10px 5px ridge black;
+}
+ 
+div.bgHeader {
+    width: auto;
+    border: 2px 2px gray;
+}
+.headertitle {
+
+    border: 2px 2px gray;
+}
+
+.maincontainer {
+    width: 100%;
+    border: 2px 2px gray;
+}

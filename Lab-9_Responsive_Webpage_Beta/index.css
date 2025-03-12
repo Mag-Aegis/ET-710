@@ -2,10 +2,13 @@
 
 /* SCREEN SIZE */
 /* Larger than 1700px */
-@media only screen and ( min-width: 1700px )
+@media only screen and ( max-width: 1700px )
 {
-    .maincontainer { width: 100%; height: auto; }
-    .card { background-color: lightcoral; width: 40%; }
+    .card {
+        width: 90%;
+	align-items: center;
+        background-color: lightcoral;
+     }
     .cardtitle { text-align: center; }
     .link {
         padding: 1em 2em;
@@ -18,8 +21,7 @@
 /* medium screen size [ 800px > 1700px] */
 @media only screen and ( max-width: 1052px )
 {
-    .maincontainer { height: auto; justify-content: center; }
-    .card { background-color: aquamarine; width: 25%; }
+    .card { background-color: aquamarine; width: 30%; }
     .cardtitle { text-align: center; }
     .headertitle {
         width: 90%; padding: 1em; font-size: 3em; text-align: center; }
@@ -30,7 +32,6 @@
 
 /* mobile screen size  800px */
 @media only screen and ( max-width: 800px ) {
-    .maincontainer { height: auto; }
     .header { flex-wrap: wrap; }
     .headertitle { width: 100%; padding: 1em; font-size: 3em; }
     .card{ background-color: lightskyblue; margin-bottom: 2em; width: 90%; }
@@ -51,11 +52,11 @@
 /* CARDS */
 .maincontainer {
     border: solid gray 1px;
-    width: 100%;
     margin: 0em auto;
     padding: 2em;
     display: flex; 
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -99,8 +100,9 @@
     width: 100%; box-shadow: 5px 5px 5px lightgray;
     display: flex;
     justify-content: center;
+    padding: 1em .4em 1em .4em;
     font-size: small;
-    background-color: whitesmoke;
+    background-color: lightcyan;
     border-radius: 2px;
 }
 	
@@ -136,6 +138,6 @@
 
 /* selector with img element specificity */
 img.socialmedia {
-    width: 30px;
-    height: 30px;
+    width: 100%;
+    display: block;
 }
