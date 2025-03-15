@@ -41,13 +41,13 @@ div.headerimage
 
 .headertitle {
     width: 700px;
-    font-family: "Times";
-    font-size: x-large;
-    font-stretch: normal;
-    text-align: center;
-    color: #F1D4A9;
-    position: relative;
-}
+		font-family: Serif;
+		font-style: normal;
+		font-weight: 500;
+		src:
+			url("//cdn2.editmysite.com/fonts/SQ_Market/sqmarket-medium.woff2") format("woff2"),
+			url("//cdn2.editmysite.com/fonts/SQ_Market/sqmarket-medium.woff") format("woff");
+	}
 
 .nav {
     width: 92%;
@@ -61,6 +61,7 @@ div.headerimage
     justify-content: space-evenly;
     align-items: center;
     border-radius: 1px;
+    border 3px 3px 3px grey;
 }
 
 ul.flexNav
@@ -71,6 +72,7 @@ ul.flexNav
 a.flexNav {
     color: #F9F9F9;
     text-decoration: none;
+    border 3px 3px 3px grey;
 }
 
 a.flexNav:hover {
@@ -85,12 +87,14 @@ a.flexNav:hover {
     width: 100%;
     margin: 2em auto;
     height: 650px;
+    border 3px 3px 3px grey;
 }
 
 .leftblock {
     width: 495px;
     height: 550px;
     float: left;
+    border 3px 3px 3px grey;
 }
 
 .introImage
@@ -103,13 +107,15 @@ a.flexNav:hover {
 }
 
 .rightblock {
-    width: 650px;
+    width: 650%;
     height: 300px;
     float: right;
+    border 3px 3px 3px grey;
 }
 
 .infosection {
     height: 90%;
+    border 3px 3px 3px grey;
 }
 
 .sectionTitle {

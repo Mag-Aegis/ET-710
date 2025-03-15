@@ -7,13 +7,11 @@
     img.nvrlnd { height: auto; }
 } */
 
-html { background-color: #F9F9F9; }
+body { page-size: landscape; }
 
 .header {
     width: 100%;
     height: 300px;
-    box-shadow: -10px 10px 5px #F1D4A9 inset;
-    padding: 1em;
     text-align: center;
     clear: both;
 }
@@ -41,19 +39,19 @@ html { background-color: #F9F9F9; }
 }*/
 
 .imgcontainerv2 {
-    width: 100%;
-    height: fill;
+    width: fill;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    clear: both;
-    border: 10px, 10px, 5px, ridge black;
+    width: 100%;
+    justify: 
+    left: 0%;
+    right: 0%;
+    border: solid 1px blue;
 }
 
 section.exc8_HeroSection {
-    width: 95%;
+    width: fill;
     height: 95%;
-    border: 10px, 10px, 5px, ridge black;
+    border: solid 1px red;
 }
 
 .excImage1 {
@@ -61,10 +59,10 @@ section.exc8_HeroSection {
     background-size: 100%;
     background-repeat: no-repeat;
     position: center;
-    width: 97%;
-    height: 95%;
+    width: 100%;
+    height: 98%;
     display: flex;
-    border: 10px, 10px, 5px, ridge black;
+    border: solid 1px purple;
 }
 
 a.hide_this_csharp {
