@@ -85,7 +85,7 @@ section.exc8_HeroSection {
 }
 
 .excImage1 {
-    background-image: linear-gradient( to right, rgba(135,39 ,255, 0.6 ), rgba(25,25,5, 0.6 )), url("https://images.adsttc.com/media/images/66f4/b4f0/2684/7b18/b6f9/24c9/large_jpg/zhongwei-desert-diamond-hotel-shuishi_16.jpg?1727313152");
+    background-image: linear-gradient( to top right, rgba(69, 48, 43, 1), rgba(69, 48, 43, 0.01)), url("https://images.adsttc.com/media/images/66f4/b4f0/2684/7b18/b6f9/24c9/large_jpg/zhongwei-desert-diamond-hotel-shuishi_16.jpg?1727313152");
     background-size: 100%;
     background-repeat: no-repeat;
     position: center;
@@ -246,8 +246,10 @@ h2.linkFont { font: monospace; color: #F1D4A9; }
 
 .footerContainer {
     width: fill;
-    height: 60%
+    height: 60%;
     border: solid 1px blue;
+    left: 0px;
+    right: 0px;
 }
 /* FOOTER */
 footer {
