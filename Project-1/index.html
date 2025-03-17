@@ -1,41 +1,160 @@
-<!-- Each card includes one image, and my choice of link in the form of the card itself -->
+<!-- Each card includes one image, and my choice of link in the form of the card itself The webpage should have a title centered at the top.
+The header should contain navigation tabs aligned to the left.
+The main content should include:
+An introduction image with a text overlay using position: relative and position: absolute.
+A card section occupying 70% of the screen width, with six cards inside.
+A right column next to the card section, containing two information cards.
+A footer should be included at the bottom with two different text sizes.
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Project 1</title>
+   <title>lab 10, Responsive Web Page</title>
    <link href="index.css" rel=stylesheet>
 </head>
 <body>
-   <header class="header">
-      <section class="bgImage">
-	   <div class="headerimage">
-      <h1 class="headertitle">Architecture Design</h1>
-	   </div></section>
-   </header>
+	<main class="imgcontainerv2">
+		<header class="header">
+			<section class="exc8_HeroSection">
+				<div class="excImage1">
+					<div>
+						<nav class="navbar">
+							<ul class="flexNav">
+								<a href="" rel="noopener noreferrer" class="flexNav">Portals</a>
+							</ul>
+							<ul class="flexNav">
+								<a href="https://github.com/Mag-Aegis/Perl-Apache-CGI-HTML-Automating" class="flexNav">Cloud-Compute</a>
+							</ul>
+							<ul class="flexNav">
+					<a href="https://cdn.petzlover.com/petzlover/gallery/img/l/german-shepherd-1858415.jpg" class="flexNav">doge</a>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</section>
+		</header>
+	</main>
 
-   <nav class="nav"><ul class="flexNav">
-  <a href="" rel="noopener noreferrer" class="flexNav">Portals</a>
-   </ul><ul class="flexNav">
-   <a href="https://github.com/Mag-Aegis/Perl-Apache-CGI-HTML-Automating" class="flexNav">Cloud-Compute</a>
-   </ul><ul class="flexNav"><a href="https://cdn.petzlover.com/petzlover/gallery/img/l/german-shepherd-1858415.jpg" class="flexNav">doge</a></ul></nav>
-   <main class="maincontainer"><aside><div class="leftblock"><img src="images/the-desert-relics-karim-plus-elias_3.jpg
-" class="introImage"></div></aside>
-    <div class="rightblock">
-       <section class="infosection"><em id="parag">Inspiration</em><br><p class="msg">Modern architectural works offer an insight to the brilliance of working with the land and integrating designs that create an experience that is unique.  <section></div>
-
+	<main class="maincontainer">
+	   <aside>
+		   <div class="leftblock1">
+			   <img src="images/zhongwei-desert-diamond-hotel-shuishi_2.jpg" class="introImage1">
+		   </div>
+	   </aside>
+	   	<div class="rightblock1">
+	   		<section class="infosection1">
+				<h2 class="linkFont">GCC</h2>
+				<p class="msg"><em id="parag">Facilities for Distributed Computing</em><br><p class="msg">Welcome .. this website is a pool of useful resource links and tangents. Perl, PL/SQL, RDBMS, C#, APACHE, WEBMASTER, stateful firewalling, NAT, XML, AJAX, CGI, Scripting, Web-Server, X Server, Threads, SOCKETS, DHCP, Concurrent Versioning System, EMACS, Source code, Document Object Model, DNS, REST, Curses, CPAN, XQuery, GPG, free hardware, magic strings, ZFS, Gentoo, Sendmail, Vim, SNMP, edge computing, JQuery, C, Intel Management Engine</p>
+				<div class="heroinfo"><a href="#" class="herotext">demonstration</a>
+				</div>
+			</section>
+		</div>
+					</main>
+	<main class="maincontainer">
+	   <aside>
+		   <div class="leftblock1">
+			   <img src="images/zhongwei-desert-diamond-hotel-shuishi_2.jpg" class="introImage1">
+		   </div>
+	   </aside>
+	   	<div class="rightblock1">
+	   		<section class="infosection1">
+				<h2 class="linkFont">Apache</h2>
+				<p class="msg">Hosting webservers is typically done with a service. Apache is one of many services. The many aspects of keeping a domain open with connections live and secure requires a large software repoitaire as seen in webserver scripts and hooks. Webpages are a unique product of an architecture provided such as Apache. For instance Apache supports many languages like Perl, which in itself can be used to automate networked software.</p>
+				<div class="heroinfo"><a href="#" class="herotext">demonstration</a>
+				</div>
+			</section>
+		</div>
+					</main>
+					<!---  <h2 href="#" class="sectionTitle">Portals</h2> -->
+	<main class="maincontainer">
+	   <aside>
+		   <div class="leftblock1">
+			   <img src="images/zhongwei-desert-diamond-hotel-shuishi_2.jpg" class="introImage1">
+		   </div>
+	   </aside>
+	   	<div class="rightblock1">
+	   		<section class="infosection1">
+				<h2 class="linkFont">GCC</h2>
+				<p class="msg">The GNU Compiler Collection (GCC) is a collection of compilers from the GNU Project that support various programming languages, hardware architectures and operating systems. The Free Software Foundation (FSF) distributes GCC as free software under the GNU General Public License (GNU GPL). GCC is a key component of the GNU toolchain which is used for most projects related to GNU and the Linux kernel. With roughly 15 million lines of code in 2019, GCC is one of the largest free programs in existence. It has played an important role in the growth of free software, as both a tool and an example.</p>
+				<div class="heroinfo"><a href="#" class="herotext">demonstration</a>
+				</div>
+			</section>
+		</div>
+					</main>
+	<main class="maincontainer">
+	   <aside>
+		   <div class="leftblock1">
+			   <img src="images/zhongwei-desert-diamond-hotel-shuishi_2.jpg" class="introImage1">
+		   </div>
+	   </aside>
+	   	<div class="rightblock1">
+	   		<section class="infosection1">
+				<h2 class="linkFont">Postfix</h2>
+				<p class="msg">Postfix is a secure and easy-to-use MTA for Unix. It's a mail agent⸺   software that mail servers use to route email. An architecture for handling MIME files and other encoding standards. The Simple Mail Transport Protocol (SMTP) is used for sending messages, and either the Post Office Protocol (POP) or Internet Mail Application (IMAP) is used for retrieving messages. SMTP, defined in RFC 2821, describes the conversation that takes place between two hosts acress a network to exchange email messages. The IMAP (RFC 2060) and  POP (RFC 1939) protocols describe how to retrieve messages from a message store. The IMAP protocol was developed after POP and offers additional features. In both protocols, email messages are kept in a central server for message recipients who generally retrieve them across a network. HTML is also a MIME encoding allowing the format to be mailed. Emails which are MIME encoded (mostly) enable embedded HTML and Enriched text, another MIME type formatting for emails. Interestingly [HTML exploit on security </p>
+				<div class="heroinfo"><a href="#" class="herotext">showcase</a>
+				</div>
+			</section>
+		</div>
+					</main>
+	<main class="maincontainer">
+	   <aside>
+		   <div class="leftblock1">
+			   <img src="images/zhongwei-desert-diamond-hotel-shuishi_2.jpg" class="introImage1">
+		   </div>
+	   </aside>
+	   	<div class="rightblock1">
+	   		<section class="infosection1">
+				<h2 class="linkFont">CPAN</h2>
+				<p class="msg">The Comprehensive Perl Archive Network facilitates access to the entire archive network MetaCPAN is an open source search engine for the Comprehensive Perl Archive Network (CPAN). From here one can download from a first class mirror to the canonical CPAN content. The front-end is MetaCPAN. extendedAwk script packages, Gtk helpers, packages and modules are found here.</p>
+				<div class="heroinfo"><a href="#" class="herotext">showcase</a>
+				</div>
+			</section>
+		</div>
+					</main>
+	<main class="maincontainer">
+	   <aside>
+		   <div class="leftblock1">
+			   <img src="images/zhongwei-desert-diamond-hotel-shuishi_2.jpg" class="introImage1">
+		   </div>
+	   </aside>
+	   	<div class="rightblock1">
+	   		<section class="infosection1">
+				<h2 class="linkFont">Libreboot</h2>
+				<p class="msg">Libreboot is a community-oriented project, with a focus on helping users escape proprietary boot firmware;  in any way you like. When you see Intel talk about their Boot Guard (which prevents coreboot by only letting firmware signed by them be executed) or other vendors imposing similar restrictions, and you hear them talk about “security”, they are only talking about their security, not yours. In the Libreboot project, it is reversed; we see Intel Boot Guard and similar such technologies as an attack on your freedom over your own property (your computer), and so, we make it our mission to help you wrest back such control. Libreboot gives you Free Software that you otherwise can’t get with most other boot firmware, plus faster boot speeds and better security. It’s extremely powerful and configurable for many use cases. Since it inherits coreboot, it doesn’t have any known backdoors in the code, nor does it contain legacy cruft from the 1980s. Libreboot provides a sleek, fast boot experience for Linux/BSD systems, based on coreboot which is regularly audited and improved.</p>
+				<div class="heroinfo"><a href="#" class="herotext">showcase</a>
+				</div>
+			</section>
+		</div>
+					</main>
+					<!--<a href="http://www.postfix.org/" rel="noopener noreferrer" class="cardlink"> -->
+					<!-- <a href="https://www.cpan.org/" rel="noopener noreferrer" class="cardlink">-->
+					<!--<a href="https://libreboot.org/" rel="noopener noreferrer" class="cardlink">-->
    </main>
-   <h2 href="#" class="sectionTitle">Portals</h2>
-	   <main class="cardscontainer">
-	<section class="card"><div class="cardinfo">
-			<a href="https://en.wikipedia.org/wiki/Apache_HTTP_Server" rel="noopener noreferrer" class="cardlink"><img src="images/logo-neverland-altar-of-gaming.png" alt="Link1" class="nvrlnd"><h2 class="linkFont">Apache</h2></a></div></section>
-      <section class="card"><div class="cardinfo"><a href="https://gcc.gnu.org/" rel="noopener noreferrer" class="cardlink"><img src="images/logo-neverland-altar-of-gaming.png" alt="Link2" class="nvrlnd"><h2 class="linkFont">GCC</h2></a></div></section>
-      <section class="card"><div class="cardinfo"><a href="https://github.com/Mag-Aegis" rel="noopener noreferrer" class="cardlink"><img src="images/logo-neverland-altar-of-gaming.png" alt="Link3" class="nvrlnd"><h2 class="linkFont">Github</h2></a></div></section></main><main class="cardscontainer"><section class="card"><div class="cardinfo"><a href="http://www.postfix.org/" rel="noopener noreferrer" class="cardlink"><img src="images/logo-neverland-altar-of-gaming.png" alt="Link4" class="nvrlnd"><h2 class="linkFont">Postfix</h2></a></div></section><section class="card"><div class="cardinfo"><a href="https://www.cpan.org/" rel="noopener noreferrer" class="cardlink"><img src="images/logo-neverland-altar-of-gaming.png" alt="Link5" class="nvrlnd"><h2 class="linkFont">CPAN</h2></a></div></section><section class="card"><div class="cardinfo"><a href="https://libreboot.org/" rel="noopener noreferrer" class="cardlink"><img src="images/logo-neverland-altar-of-gaming.png" alt="Link6" class="nvrlnd"><h2 class="linkFont">Libreboot</h2></a></div></section>
-  </main>
-
+   <main class="footercontainer">
    <footer class="footer">
-   <p>Email: <a href="mailto:jorge.garib11@student.qcc.cuny.edu">jorge.garib11@student.qcc.cuny.edu</a></p><p class="">Created by Jorge Garib Guillen</p>
-    </footer>
+	   <section class="footercustomer">
+		<p class="footertitle">Navigation!
+		<ul class="footerlist">
+		<li >Sign Up <li>
+		<li >Sign Up <li>
+		<li >Sign Up <li></ul>
+  	 </section>
+	<section class="footerfollow">
+		<p class="footertitle">References
+		<ul class="footerlist">
+		<li >Sign Up <li>
+		<li >Sign Up <li>
+		<li >Sign Up <li></ul>
+	</section>
+	<section class="footerfollow">
+		<p class="footertitle">Email</p>
+		<div class="socialmedia"><a href=""><img class="socialmedia" src="images/Chat_icon.png"></a>
+		<a href=""><img class="socialmedia" src="images/Logo_of_Twitter.svg.png"></a></div>
+	<p>Email: <a href="mailto:jorge.garib11@student.qcc.cuny.edu">jorge.garib11@student.qcc.cuny.edu</a></p><p class="">Created by Jorge Garib Guillen</p>
+	</section>
+     </footer>
+     </main>
 </body>
 </html>

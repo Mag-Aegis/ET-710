@@ -105,17 +105,21 @@ section.exc8_HeroSection {
     padding: 0.5em;
 }
 
-div#nav {
-    width: auto;
-    height: auto;
+.navbar {
+    height: 8%;
     color: aliceblue;
-    padding: 1em;
     text-align: center;
     background-color: #F1D4A9;
     display: flex;
-    justify-content: center;
-    align-items: bottom;
+    justify-content: space-evenly;
+    align-items: center;
     border-radius: 1px;
+
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+    width: 100%;
 }
 
 ul.flexNav
@@ -139,7 +143,7 @@ a.flexNav:hover {
 .maincontainer {
     width: 100%;
     margin: 2em auto;
-    height: 350px;
+    height: 550px;
     border: solid 1px blue;
 }
 
@@ -158,14 +162,65 @@ a.flexNav:hover {
     box-shadow: -10px 10px 5px #5E3F9F;
 }
 
+.introImage1
+{
+    width: 100%;
+    height: 100%;
+    padding: .1em;
+    border-radius: 3px;
+    box-shadow: -10px 10px 5px #5E3F9F;
+}
+
+.leftblock1 {
+    width: 35%;
+    height: 45%;
+    float: left;
+}
 .rightblock {
     width: 650px;
     height: 300px;
     float: right;
 }
 
+.rightblock1 {
+    width: 45%;
+    height: 400px;
+    float: right;
+}
+
 .infosection {
     height: 300px;
+}
+
+.infosection1 {
+    height: 300px;
+}
+
+.heroinfo {
+    background-color: rgba(69, 48, 43, .9); 
+    position: relative;
+    top:10%;
+    bottom: 30%;
+    left: -30%;
+    right: 0%;
+    text-align: center;
+    border: solid 1px red;
+}
+
+.heroinfo a:hover {
+    background-color: orange;
+}
+
+.herotext {
+    display: block;
+    padding: 10px 25px;
+    color: black;
+
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 .sectionTitle {
@@ -181,8 +236,8 @@ p { text-align: justify; padding: auto; }
 p.msg
 {
     font-family: "Times"; font-size: large; text-indent: 1em;
-    font-stretch: normal; color: #5E3F9F;
-}
+    font-stretch: normal; color: black; border: solid 2px blue;
+	 position: relative; left: -30%; top: -10%; }
 
 em#parag { justify: top;font-weight: bolder; color: #5E3F9F; font-size: 175%; }
 
@@ -235,30 +290,21 @@ img.nvrlnd {
     display: block;
 }
 
-h2.linkFont { font: monospace; color: #F1D4A9; }
+h2.linkFont { font: monospace; color: #F1D4A9; position: relative; top: -5%; left: 10%; }
 
-.images {
-    height:200px;
-    background-color: crimson;
-    float: left;
+.footercontainer {
+    top: 0%;
+    left: 0%;
+    margin: 0%;
     width: 100%;
 }
 
-.footerContainer {
-    width: fill;
-    height: 60%;
-    border: solid 1px blue;
-    left: 0px;
-    right: 0px;
-}
 /* FOOTER */
 footer {
-    width: fill;
-    height: auto;
-    margin: 1em auto; box-shadow: 5px 5px 5px lightgray;
+    width: ;
+    height: fill;
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
     font-size: x-small;
     text-align: center; 
     background-color: whitesmoke;
@@ -268,7 +314,6 @@ footer {
 .footercustomer, .footerfollow, .footermyaccount {
     width: 30%;
     padding: 0em 1em;
-    margin-left: -40px;
     text-align: left;
 }
 
