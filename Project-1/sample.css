@@ -109,7 +109,7 @@ section.exc8_HeroSection {
     height: 8%;
     color: aliceblue;
     text-align: center;
-    background-color: #F1D4A9;
+    background-color: rgba(69, 48, 43, .9); 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -120,12 +120,12 @@ section.exc8_HeroSection {
     left: 0%;
     margin: 0%;
     width: 100%;
-    border: solid 1px red;
 }
 
 ul.flexNav
 {
-    background-color: #F1D4A9; text-align: center;
+    text-align: center; margin: 1px;
+    background-color: rgba(69, 48, 43, .9); 
 }
 
 a.flexNav {
@@ -134,8 +134,7 @@ a.flexNav {
 }
 
 a.flexNav:hover {
-    background-color: #C6D7CE;
-    box-shadow: 0px 0px 6px 2px lightgray;
+    background-color: rgba(69, 48, 43, .9); 
     transform: scale(.25);
     font-size: 1.05em;
     text-decoration: none;
@@ -143,16 +142,16 @@ a.flexNav:hover {
 
 .maincontainer {
     width: 100%;
-    margin: 2em auto;
+    margin: 2em .5em;
     margin-bottom: 40%;
     height: auto;
-    border: solid 1px blue;
+    border: solid 1px grey;
 }
 
 .leftblock {
     width: 295px;
     height: 300px;
-    float: top;
+    float: left;
 }
 
 .introImage
@@ -205,7 +204,7 @@ a.flexNav:hover {
     left: -30%;
     right: 0%;
     text-align: center;
-    border: solid 1px red;
+    border-radius: 10px;
 }
 
 .heroinfo a:hover {
