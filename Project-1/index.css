@@ -236,7 +236,7 @@ p { text-align: justify; padding: auto; }
 p.msg
 {
     font-family: "Times"; font-size: large; text-indent: 1em;
-    font-stretch: normal; color: black; border: solid 2px blue;
+    font-stretch: normal; color: black;
 	 position: relative; left: -30%; top: -10%; }
 
 em#parag { justify: top;font-weight: bolder; color: #5E3F9F; font-size: 175%; }
