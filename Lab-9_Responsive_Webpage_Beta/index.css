@@ -95,6 +95,10 @@
     color: blue;
 }
 
+.slides {
+    width: 100%; height: 100%;
+}
+
 /* FOOTER */
 .footer {
     width: 100%; box-shadow: 5px 5px 5px lightgray;

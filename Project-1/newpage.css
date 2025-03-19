@@ -1,0 +1,156 @@
+* { box-sizing: border-box; /* border: solid 1px blue; */  }
+body { page-size: landscape; }
+
+.header {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    clear: both;
+}
+
+.headercontainer {
+    width: fill;
+    display: flex;
+    width: 100%;
+}
+
+section.exc8_HeroSection {
+    width: fill;
+    height: 95%;
+    margin: -.50em;
+}
+
+.headerimage {
+    background-image: linear-gradient( to top right, rgba(69, 48, 43, 1), rgba(69, 48, 43, 0.01)), url("https://images.adsttc.com/media/images/66f4/b4f0/2684/7b18/b6f9/24c9/large_jpg/zhongwei-desert-diamond-hotel-shuishi_16.jpg?1727313152");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: center;
+    width: 100%;
+    height: 98%;
+    display: flex;
+}
+
+.navbar {
+    height: auto;
+    text-align: center;
+    background-color: rgba(69, 48, 43); 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+ul.flexNav
+{
+    text-align: center;
+    display: flex;
+}
+
+a.flexNav {
+    color: #F9F9F9;
+    text-decoration: none;
+}
+
+a.flexNav:hover {
+    background-color: rgba(69, 48, 43, .9); 
+    transform: scale(1.01);
+    font-size: 1.01em;
+    text-decoration: none;
+}
+
+.maincontainer {
+height: 500px;
+margin-top: 30%;
+margin: 2em auto;
+box-shadow: 5px 5px 10px gray;
+}
+
+.leftblock{
+width: 70%;
+height: auto;
+border: solid gray 1px;
+float: left;
+}
+
+.rightblock{
+width: 29%;
+height:auto;
+border: 1px solid black;
+float: right;
+}
+
+.infosection, .newsarticle{
+height: 150px;
+}
+
+.infosection{
+background-color: chartreuse;
+}
+
+.newsarticle{
+background-color:deepskyblue;
+}
+
+footer {
+    width: ;
+    height: fill;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-small;
+    text-align: center; 
+    background-color: whitesmoke;
+    border-radius: 2px;
+}
+
+.images {
+width: 100%;
+height: auto;
+background-color: crimson;
+float: left;
+}
+
+.slides {
+	display: flex;
+    width: 100%;
+    border: solid 1px blue;
+    text-shadow: 0px 10px 20px #023141;
+}
+
+.footercustomer, .footerfollow, .footermyaccount {
+    width: 30%;
+    padding: 0em 1em;
+    text-align: left;
+}
+
+.footerlist li{
+    margin-left: -40px;
+    list-style: none;
+    text-align: left;
+    padding: 0.5em 0em;
+}
+
+.footertitle {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.socialmedia {
+    display: flex;
+}
+
+.socialmedia a{
+    display: inline-block;
+    width: 10%;
+    margin-right: 5%;
+}
+
+/* selector with img element specificity */
+img.socialmedia {
+    width: 100%;
+    display: block;
+}
