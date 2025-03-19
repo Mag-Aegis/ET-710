@@ -109,7 +109,7 @@ a.flexNav:hover {
     margin: 2em .5em;
     margin-bottom: 40%;
     height: auto;
-    border: solid 1px orange;
+    border: solid 1px;
 }
 
 .samplecontainer {
@@ -166,7 +166,6 @@ a.flexNav:hover {
 
 .infosection1 {
     width: 92%;
-    border: solid 1px blue;
     justify: bottom;
     text-align: justify;
 }
@@ -188,7 +187,7 @@ a.flexNav:hover {
 .herotext {
     display: block;
     padding: 10px 25px;
-    color: #F9F9F9;
+    color: black;
 
     font-weight: 600;
     font-size: 20px;
@@ -217,7 +216,7 @@ p.msg
 em#parag { justify: top;font-weight: bolder; color: black; font-size: 175%; }
 
 
-h2.linkFont { font: monospace; color: #F1D4A9; position: static; top: -5%; left: 0%; }
+h2.linkFont { font: monospace; color: black; position: static; top: -5%; left: 0%; }
 
 .footercontainer {
     top: 0%;
