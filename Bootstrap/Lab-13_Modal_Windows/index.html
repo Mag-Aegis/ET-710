@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab-13, Modal Windows</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <h2 class="ms-2 text-success">Dropdown List</h2>
+
+    <div class="ms-2 dropdown dropend">
+	    <button type="button" class="dropdown-toggle btn btn-secondary" data-bs-toggle="dropdown">CUNY Community Colleges</button>
+	    <ul class="dropdown-menu">
+		    <li class="bg-dark text-light">Queens</li>
+		    <li><a class="dropdown-item" href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer">Queensborough Community College</a></li>
+		    <li><a class="dropdown-item" href="https://www.laguardia.cuny.edu" target="_blank" rel="noopener noreferrer">Laguardia Community College</a></li>
+		    <li class="bg-dark text-light">Brooklyn</li>
+		    <li><a class="dropdown-item" href="https://www.kbcc.cuny.edu" target="_blank" rel="noopener noreferrer">Kingsborough Community College</a></li>
+		    <hr><li><a class="dropdown-item" href="https://www.cuny.edu" target="_blank" rel="noopener noreferrer">More Info</a></li>
+
+	    </ul>
+    </div>
+
+    <h1 class="ms-4">Grouping Buttons</h1>
+    <section class="btn-group ms-3">
+	    <button type="button" class="btn btn-success">Amphibian</button>
+	    <button type="button" class="btn btn-success">Reptile</button>
+	    <button type="button" class="btn btn-success">Others</button>
+    </section>
+
+    <section class="btn-group-vertical m-3 d-block w-25">
+	    <button type="button" class="btn btn-success">Amphibian</button>
+	    <button type="button" class="btn btn-success">Reptile</button>
+	    <button type="button" class="btn btn-success">Others</button>
+    </section>
+
+    <section class="btn-group m-3 w-100">
+	    <button type="button" class="btn btn-danger"><a class="dropdown-item" href="#">Home</a></button>
+	    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"><a class="dropdown-item" href="#">CUNY Community Colleges</a></button>
+	    <button type="button" class="btn btn-danger"><a class="dropdown-item" href="#">Bootstrap Images</a></button>
+	    <ul class="dropdown-menu">
+		    <li class="bg-dark text-light">Queens</li>
+		    <li><a class="dropdown-item" href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer">Queensborough Community College</a></li>
+		    <li><a class="dropdown-item" href="https://www.laguardia.cuny.edu" target="_blank" rel="noopener noreferrer">Laguardia Community College</a></li>
+		    <li class="bg-dark text-light">Brooklyn</li>
+		    <li><a class="dropdown-item" href="https://www.kbcc.cuny.edu" target="_blank" rel="noopener noreferrer">Kingsborough Community College</a></li>
+		    <hr><li><a class="dropdown-item" href="https://www.cuny.edu" target="_blank" rel="noopener noreferrer">More Info</a></li>
+
+	    </ul>
+    </section>
+
+    <h1>Collapsibles</h1>
+    <button type="button" class="btn btn-info" data-bs-target="#games" data-bs-toggle="collapse">Info about online computer games</button>
+    <section id="games" class="collapse bg-dark">
+	    <p class="m-5 p-5">The MMO (massively multiplayer online) role playing game genre absolutely propelled the entire scene of videogames at the turn of the century. World of warcraft is one of my favorite games, and popularized the genre in the year 2004.</p>
+	    <figure class="m-3 p-5">
+		    <img src="images/dark-portal-1600x1200.jpg" alt="image of vanilla login screen bg" class="w-50 auto d-block img-thumbnail p-5">
+	    </figure>
+
+    </section>
+
+    <h1>Accordions</h1>
+    <section class="accordion" id="accordionexample">
+	    <!-- Item one-->
+	    <div class="accordion-item" data-bs-parent="accordionexample">
+		    <p class="accordion-header" id="heading_one">
+		    <button class="accordion-button collapsed" data-bs-target="#collapse_one" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse_one">First example</button>
+		    </p>
+
+		    <div class="accordion-collapse collapse" id="collapse_one" aria-labelledby="heading_one" data-bs-parent="accordionexample">
+			    <div class="p-5 bg-light accordion-body">
+				    <p>"Experience the intensity of the World's #1 Online Game. Enter the World of Warcraft... Descend into the World of Warcraft and join thousands of mighty heroes in an online workd of myth, magic, and limitles adventure."</p>
+				    <figure class="m-3 p-5">
+				    	<img src="images/dark-portal-1600x1200.jpg" alt="WoW" class="w-50 m-auto d-block img-thumbnail p-5">
+				    </figure>
+			    </div>
+		    </div>
+	    </div>
+
+	    <!-- Item 2 -->
+	    <div class="accordion-item">
+		    <p class="accordion-header" id="heading_two">
+		    <button class="accordion-button collapsed" data-bs-target="#collapse_two"  data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse_two">Second example</button>
+		    </p>
+
+		    <div class="accordion-collapse collapse" id="collapse_two" aria-labelledby="heading_two" data-bs-parent="accordionexample">
+			    <div class="p-5 bg-light accordion-body">
+				    <p>"Experience the intensity of the World's #1 Online Game. Enter the World of Warcraft... Descend into the World of Warcraft and join thousands of mighty heroes in an online workd of myth, magic, and limitles adventure."</p>
+				    <figure class="m-3 p-5">
+				    	<img src="images/dark-portal-1600x1200.jpg" alt="WoW" class="w-50 m-auto d-block img-thumbnail p-5">
+				    </figure>
+			    </div>
+		    </div>
+	    </div>
+
+    </section>
+
+    <h2>Grid system</h2>
+    <section class="container">
+	    <div class="row">
+		    <div class="col-5 bg-danger">column with 5-span</div>
+		    <div class="col-7 bg-success">column with 7-span</div>
+	    </div>
+    </section>
+
+    <section class="container mt-5">
+	    <div class="row">
+		    <div class="col-lg-1 col-md-7 col-sm-6 bg-danger">left column</div>
+		    <div class="col-lg-3 col-md-2 col-sm-6 bg-success">medium column</div>
+		    <div class="col-lg-7 col-md-3 col-sm-12 bg-warning">right column</div>
+	    </div>
+    </section>
+
+    <section class="container mt-5">
+	    <div class="row justify-content-center">
+		    <div class="col-xl-2 col-lg-3 col-md-4 col-lg-5 bg-light rounded m-1 p-3">
+			    <img class="w-100" src="images/21.jpg" alt="image">
+			    <h2 class="text-danger mt-3">WoW screenshot</h2>
+			    <p>"Experience the intensity of the World's #1 Online Game. Enter the World of Warcraft... Descend into the World of Warcraft and join thousands of mighty heroes in an online workd of myth, magic, and limitless adventure."</p>
+		    </div>
+		    <div class="col-xl-2 col-lg-3 col-md-4 col-lg-5 bg-light rounded m-1 p-3">
+			    <img class="w-100" src="images/Durotar.jpg" alt="in-game image">
+			    <h2 class="text-danger mt-3">WoW screenshot</h2>
+			    <p>"Experience the intensity of the World's #1 Online Game. Enter the World of Warcraft... Descend into the World of Warcraft and join thousands of mighty heroes in an online workd of myth, magic, and limitles adventure."</p>
+		    </div>
+		    <div class="col-xl-2 col-lg-3 col-md-4 col-lg-5 bg-light rounded m-1 p-3">
+			    <img class="w-100" src="images/classic-wow-professions-best-header.jpg" alt="in-game image">
+			    <h2 class="text-danger mt-3">WoW screenshot</h2>
+			    <p>"Experience the intensity of the World's #1 Online Game. Enter the World of Warcraft... Descend into the World of Warcraft and join thousands of mighty heroes in an online workd of myth, magic, and limitles adventure."</p>
+		    </div>
+		    <div class="col-xl-2 col-lg-5 col-md-4 bg-light rounded m-1 p-3">
+			    <img class="w-100" src="images/maxresdefault.jpg" alt="in-game image">
+
+			    <h2 class="text-danger mt-3">WoW screenshot</h2>
+			    <p>"Experience the intensity of the World's #1 Online Game. Enter the World of Warcraft... Descend into the World of Warcraft and join thousands of mighty heroes in an online workd of myth, magic, and limitles adventure."</p>
+		    </div>
+    </section>
+
+    <h1>Cards</h1>
+    <section class="container">
+	    <div class="row justify-content-center">
+		    <!-- Design 1 -->
+		    <div class="col-lg-3 col-md-11 col-sm-11 card bg-light m-3">
+			    <section class="card-body">
+				    <img class="card-img" src="images/e74f9115-69d3-49fb-b549-99861d3055cb.jpg" alt="image of">
+
+				    <h2 class="card-title text-info">Computer game</h2>
+				    <p class="card-subtitle">Computer Games</p>
+				    <p class="card-text">"Experience the intensity of the World's #1 Online Game. Enter the World of Warcraft... Descend into the World of Warcraft and join thousands of mighty heroes in an online workd of myth, magic, and limitles adventure."</p>
+				    <a class="card-link" href="#">Read more</a>
+				    <a class="card-link" href="#">Read more</a>
+				    <a class="card-link" href="#">Read more</a>
+			    </section>
+		    </div>
+
+		    <!-- Design 2-->
+		    <div class="col-lg-3 col-md-11 col-sm-11 card bg-light m-3">
+			    <section class="card-header">
+				    <h2 class="card-title text-warning">Fall scenery</h2>
+				    <p class="card-subtitle">Landscape with mountains and lakes with sky</p>
+			    </section>
+
+			    <section class="card-body">
+				    <img class="card-img" src="images/beautiful-landscape-with-mountains-and-lakes-with-sky-in-italy-1268234259.jpg" alt="image of">
+				    <p class="card-subtitle">"Experience the intensity of the World's #1 Online Game. Enter the World of Warcraft... Descend into the World of Warcraft and join thousands of mighty heroes in an online workd of myth, magic, and limitles adventure."</p>
+			    </section>
+
+			    <section class="card-footer">
+				    <nav>
+					    <a class="card-link" href="#">Read more</a>
+					    <a class="card-link" href="#">Read more</a>
+					    <a class="card-link" href="#">Read more</a>
+				    </nav>
+			    </section>
+		    </div>
+
+		    <!-- Design 3-->
+		    <div class="col-lg-3 col-md-11 card bg-light m-3">
+			    <section class="card-header">
+				    <img class="card-img" src="images/720full-phantasy-star-online-episode-i-&-ii-plus-screenshot.jpg" alt="image of">
+
+				    <div class="card-body bg-dark">
+					    <h2 class="card-title text-warning"></h2>
+					    <p class="card-text text-light">Scifi Online Game PSO</p>
+					    <p class="card-subtitle text-light">"A screenshot of PSO. Phantasy Star Online is an online role-playing game developed by Sonic Team and published by Sega in 2000 for the Dreamcast. It was the first successful online RPG for game consoles; players adventure with up to three others over the internet to complete quests, collect items and fight enemies in real-time action RPG combat."</p>
+				    </div>
+
+				    <div class="card-footer bg-warning">
+					    <nav>
+						    <a class="card-link" href="#">Read more</a>
+						    <a class="card-link" href="#">Read more</a>
+						    <a class="card-link" href="#">Read more</a>
+					    </nav>
+				    </div>
+			    </section>
+		    </div>
+	    </div>
+    </section>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
