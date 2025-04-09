@@ -1,0 +1,11 @@
+OS: postmarketos
+
+Wm: i3-gaps
+
+Terminal: st
+
+Shell: zsh
+
+Run: vim, pfetch, cmatrix
+
+Wallpaper: here
