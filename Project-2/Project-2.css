@@ -1,0 +1,58 @@
+/* Project 2 optional CSS*/
+:root {
+	--primarycolor:rgb(92,110,110);
+	--primarydark:rgb(5,19,20);
+	--primarylight:rgb(165,183,159);
+	--secondarycolor:;
+}
+
+.title{
+	background-color: var( --primarycolor);
+	color: var( --primarylight);
+}
+/* FOOTER */
+.footer {
+    width: 100%; box-shadow: 5px 5px 5px lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 1em .4em 1em .4em;
+    font-size: small;
+    background-color: lightcyan;
+    border-radius: 2px;
+}
+	
+.footercustomer, .footerfollow, .footermyaccount {
+    width: 30%;
+    padding: 0em 1em;
+    margin-left: -40px;
+    text-align: left;
+}
+
+.footerlist li{
+    margin-left: -40px;
+    list-style: none;
+    text-align: left;
+    padding: 0.5em 0em;
+}
+
+.footertitle {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.socialmedia {
+    display: flex;
+}
+
+.socialmedia a{
+    display: inline-block;
+    width: 10%;
+    margin-right: 5%;
+}
+
+/* selector with img element specificity */
+img.socialmedia {
+    width: 100%;
+    display: block;
+}
