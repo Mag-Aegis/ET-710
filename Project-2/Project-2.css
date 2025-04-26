@@ -3,7 +3,7 @@
 	--primarycolor:rgb(92,110,110);
 	--primarydark:rgb(5,19,20);
 	--primarylight:rgb(165,183,159);
-	--secondarycolor:black;
+	--secondarycolor:;
 }
 
 .title{
@@ -11,19 +11,20 @@
 	color: var( --primarylight);
 }
 
+* { box-sizing: border-box; /* border: solid 1px blue; */  }
+body { page-size: landscape; }
 
-
-.headerimage {
-    background-image: linear-gradient( to top right, rgb(92,110,110), rgb(5,19,20)), url("https://auto123channel.com/wp-content/uploads/2023/03/girard-perregaux-laureato-green-ceramic-aston-martin-edition.jpg");
-
-    background-size: 100%;
-    background-repeat: no-repeat;
-    position: center;
-    width: 100%;
-    height: 98%;
-    display: flex;
-}
-:q{
+/* SCREEN SIZE */
+/* Larger than 1700px */
+@media only screen and ( max-width: 1700px )
+{
+    .card {
+        width: 90%;
+	align-items: center;
+        background-color: lightcoral;
+     }
+    .cardtitle { text-align: center; }
+    .link {
         padding: 1em 2em;
 	font-size: 1.1em;
     }
@@ -47,12 +48,6 @@
 @media only screen and ( max-width: 800px ) {
     .header { flex-wrap: wrap; }
     .headertitle { width: 100%; padding: 1em; font-size: 3em; }
-.header {
-    width: 100%;
-    height: 300px;
-    text-align: center;
-    clear: both;
-}
     .card{ background-color: lightskyblue; margin-bottom: 2em; width: 90%; }
     .cardtitle { text-align: center; }
     .navlinks { width: 100%; justify-content: center; border: top white; }
@@ -63,7 +58,7 @@
 
 .header {
     width: 100%;
-    height: 500px;
+    height: 300px;
     text-align: center;
     clear: both;
 }
@@ -78,6 +73,16 @@ section.exc8_HeroSection {
     width: fill;
     height: 95%;
     margin: -.50em;
+}
+
+.headerimage {
+    background-image: linear-gradient( to top right, rgba(69, 48, 43, 1), rgba(69, 48, 43, 0.01)), url("https://auto123channel.com/wp-content/uploads/2023/03/girard-perregaux-laureato-green-ceramic-aston-martin-edition.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: center;
+    width: 100%;
+    height: 98%;
+    display: flex;
 }
 
 .navbar {
