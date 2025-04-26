@@ -8,43 +8,39 @@
 <link href="Project-2.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-	  <h1>Beloved watches</h1>
+	<h1>Beloved watches</h1>
+    <main class="headcontainer">
+	<header class="header">
+		<section class="exc8_HeroSection">
+			<div class="headerimage">
+				<nav class="navbar">
+					<ul class="flexNav">
+						<a href="https://httpd.apache.org" rel="noopener noreferrer" class="flexNav">Apache</a>
+		
+	  <section class="carousel slide border border-warning" data-bs-ride="carousel">
+		  <div class="carousel-inner text-center title display-2 p-3">
+			  <div class="carousel-item active"><p>SEASONAL SALE<span class="text-danger display-2"> Watches 30 % OFF</span></p></div>
+			  <div class="carousel-item"><p>Free<span class="text-danger display-2">Shipping </span> within US</p></div>
+			  <div class="carousel-item"><p>Toys Flash Sale Today <span class="text-danger display-2"> 40% off</span></p></div>
+			  </div>
+		  </div></section>
 
-	<main class="headcontainer">
-		<header class="header">
-			<section class="exc8_HeroSection">
-				<div class="headerimage">
-					<div>
-						<nav class="navbar">
-							<ul class="flexNav">
-								<a href="https://httpd.apache.org" rel="noopener noreferrer" class="flexNav">Apache</a>
-							</ul>
-							<ul class="flexNav">
-								<a href="https://gcc.gnu.org" rel="noopener noreferrer" class="flexNav">GCC</a>
-							</ul>
-							<ul class="flexNav">
-								<a href="http://www.postfix.org/" class="flexNav">Postfix</a>
-							</ul>
-							<ul class="flexNav">
-					<a href="http://www.metacpan.org/" class="flexNav">CPAN</a>
-							</ul>
-							<ul class="flexNav">
-								<a href="https://libreboot.org" rel="noopener noreferrer" class="flexNav">Libreboot</a>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</section>
-		</header>
-	</main>
+		  <h2>Carousel of images with indicators and text</h2>
+		  <section class="carousel slide w-50 m-auto" data-bs-ride="carousel" id="imageslide">
+			  <main class="carousel-inner">
+				  <div class="carousel-item active"><img class="w-100" src="images/60625--phantasy-star-online-episode-i-ii.png" alt="image"></div>
+				  <div class="carousel-item"><img class="w-100" src="images/Pictures/PSO-05-01-1024x0768.jpg" alt="image"></div>
+				  <div class="carousel-item"><img class="w-100" src="images/Pictures/wp-PSO-440-1024.jpg" alt="image"></div>
+				  <div class="carousel-item"><img class="w-100" src="images/720full-phantasy-star-online-episode-i-&-ii-plus-screenshot.jpg" alt="image"></div>
+		  </section>
+			  </main>
 
-    <h2 class="ms-2 text-success">Dropdown List</h2>
-
-    <div class="ms-2 dropdown dropend">
-	    <button type="button" class="dropdown-toggle btn btn-secondary" data-bs-toggle="dropdown">CUNY Community Colleges</button>
-	    <ul class="dropdown-menu">
-		    <li class="bg-dark text-light">Queens</li>
-		    <li><a class="dropdown-item" href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer">Queensborough Community College</a></li>
+					<div class="ms-2 dropdown dropend">
+						<button type="button" class="dropdown-toggle btn btn-secondary" data-bs-toggle="dropdown">Contemporary</button>
+						<ul class="dropdown-menu">
+							<li class="bg-dark text-light">Queens</li>
+							<li>
+								<a class="dropdown-item" href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer">Queensborough Community College</a></li>
 		    <li><a class="dropdown-item" href="https://www.laguardia.cuny.edu" target="_blank" rel="noopener noreferrer">Laguardia Community College</a></li>
 		    <li class="bg-dark text-light">Brooklyn</li>
 		    <li><a class="dropdown-item" href="https://www.kbcc.cuny.edu" target="_blank" rel="noopener noreferrer">Kingsborough Community College</a></li>
@@ -52,6 +48,23 @@
 
 	    </ul>
     </div>
+						<ul class="flexNav">
+							<a href="http://www.postfix.org/" class="flexNav">Postfix</a>
+						</ul>
+						<ul class="flexNav">
+				<a href="http://www.metacpan.org/" class="flexNav">CPAN</a>
+						</ul>
+						<ul class="flexNav">
+							<a href="https://libreboot.org" rel="noopener noreferrer" class="flexNav">Libreboot</a>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</section>
+	</header>
+</main>
+
+    <h2 class="ms-2 text-success">Dropdown List</h2>
 
     <h1 class="ms-4">Grouping Buttons</h1>
     <section class="btn-group ms-3">
@@ -61,31 +74,20 @@
     </section>
 
     <section class="btn-group-vertical m-3 d-block w-25">
-	    <button type="button" class="btn btn-success">Amphibian</button>
-	    <button type="button" class="btn btn-success">Reptile</button>
-	    <button type="button" class="btn btn-success">Others</button>
+	    <button type="button" class="btn btn-title">Amphibian</button>
+	    <button type="button" class="btn btn-title">Reptile</button>
+	    <button type="button" class="btn btn-title">Others</button>
     </section>
 
     <section class="btn-group m-3 w-100">
-	    <button type="button" class="btn btn-danger"><a class="dropdown-item" href="#">Home</a></button>
-	    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"><a class="dropdown-item" href="#">CUNY Community Colleges</a></button>
-	    <button type="button" class="btn btn-danger"><a class="dropdown-item" href="#">Bootstrap Images</a></button>
+	    <button type="button" class="btn btn-title"><a class="dropdown-item" href="#">Home</a></button>
+	    <button type="button" class="btn btn-title dropdown-toggle" data-bs-toggle="dropdown"><a class="dropdown-item" href="#">CUNY Community Colleges</a></button>
+	    <button type="button" class="btn btn-title"><a class="dropdown-item" href="#">Bootstrap Images</a></button>
 	    <ul class="dropdown-menu">
 		    <li class="bg-dark text-light">Queens</li>
 		    <li><a class="dropdown-item" href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer">Queensborough Community College</a></li>
 		    <li><a class="dropdown-item" href="https://www.laguardia.cuny.edu" target="_blank" rel="noopener noreferrer">Laguardia Community College</a></li>
 		    <li class="bg-dark text-light">Brooklyn</li>
-		    <li><a class="dropdown-item" href="https://www.kbcc.cuny.edu" target="_blank" rel="noopener noreferrer">Kingsborough Community College</a></li>
-		    <hr><li><a class="dropdown-item" href="https://www.cuny.edu" target="_blank" rel="noopener noreferrer">More Info</a></li>
-
-	    </ul>
-    </section>
-
-    <h1>Collapsibles</h1>
-    <button type="button" class="btn btn-info" data-bs-target="#games" data-bs-toggle="collapse">Info about online computer games</button>
-    <section id="games" class="collapse bg-dark">
-	    <p class="m-5 p-5">The MMO (massively multiplayer online) role playing game genre absolutely propelled the entire scene of videogames at the turn of the century. World of warcraft is one of my favorite games, and popularized the genre in the year 2004.</p>
-	    <figure class="m-3 p-5">
 		    <img src="images/dark-portal-1600x1200.jpg" alt="image of vanilla login screen bg" class="w-50 auto d-block img-thumbnail p-5">
 	    </figure>
 
@@ -139,7 +141,7 @@
 	    <div class="row">
 		    <div class="col-lg-1 col-md-7 col-sm-6 bg-danger">left column</div>
 		    <div class="col-lg-3 col-md-2 col-sm-6 bg-success">medium column</div>
-		    <div class="col-lg-7 col-md-3 col-sm-12 bg-warning">right column</div>
+		    <div class="col-lg-7 col-md-3 col-sm-12 title" >right column</div>
 	    </div>
     </section>
 
@@ -161,9 +163,9 @@
 			    <p>"Experience the intensity of the World's #1 Online Game. Enter the World of Warcraft... Descend into the World of Warcraft and join thousands of mighty heroes in an online workd of myth, magic, and limitles adventure."</p>
 		    </div>
 		    <div class="col-xl-2 col-lg-5 col-md-4 bg-light rounded m-1 p-3">
-			    <img class="w-100" src="images/maxresdefault.jpg" alt="in-game image">
+			    <img class="w-100 title" src="images/maxresdefault.jpg" alt="in-game image">
 
-			    <h2 class="text-danger mt-3">WoW screenshot</h2>
+			    <h2 class="text-danger mt-3 title">WoW screenshot</h2>
 			    <p>"Experience the intensity of the World's #1 Online Game. Enter the World of Warcraft... Descend into the World of Warcraft and join thousands of mighty heroes in an online workd of myth, magic, and limitles adventure."</p>
 		    </div>
     </section>
@@ -218,6 +220,17 @@
 				    </div>
 
 				    <div class="card-footer bg-warning">
+					    <nav>
+						    <a class="card-link" href="#">Read more</a>
+						    <a class="card-link" href="#">Read more</a>
+						    <a class="card-link" href="#">Read more</a>
+					    </nav>
+					    <h2 class="card-title text-warning"></h2>
+					    <p class="card-text text-light">sports watches sports watches sports watches sports watches sports watches </p>
+					    <p class="card-subtitle text-light">"watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches watches "</p>
+				    </div>
+
+				    <div class="card-footer title">
 					    <nav>
 						    <a class="card-link" href="#">Read more</a>
 						    <a class="card-link" href="#">Read more</a>

@@ -3,28 +3,263 @@
 	--primarycolor:rgb(92,110,110);
 	--primarydark:rgb(5,19,20);
 	--primarylight:rgb(165,183,159);
-	--secondarycolor:;
+	--secondarycolor:black;
 }
 
 .title{
 	background-color: var( --primarycolor);
 	color: var( --primarylight);
 }
-/* FOOTER */
-.footer {
-    width: 100%; box-shadow: 5px 5px 5px lightgray;
+
+
+
+.headerimage {
+    background-image: linear-gradient( to top right, rgb(92,110,110), rgb(5,19,20)), url("https://auto123channel.com/wp-content/uploads/2023/03/girard-perregaux-laureato-green-ceramic-aston-martin-edition.jpg");
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: center;
+    width: 100%;
+    height: 98%;
+    display: flex;
+}
+:q{
+        padding: 1em 2em;
+	font-size: 1.1em;
+    }
+    .headertitle { font-size: 1.2em; }
+}
+/* ======Break===Point====================================================*/
+
+/* medium screen size [ 800px > 1700px] */
+@media only screen and ( max-width: 1052px )
+{
+    .card { background-color: aquamarine; width: 30%; }
+    .cardtitle { text-align: center; }
+    .headertitle {
+        width: 90%; padding: 1em; font-size: 3em; text-align: center; }
+    .header { flex-wrap: wrap; }
+    .flexNav { width: 100%; justify-content: center; }
+}
+/* ==========================================================================*/
+
+/* mobile screen size  800px */
+@media only screen and ( max-width: 800px ) {
+    .header { flex-wrap: wrap; }
+    .headertitle { width: 100%; padding: 1em; font-size: 3em; }
+.header {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    clear: both;
+}
+    .card{ background-color: lightskyblue; margin-bottom: 2em; width: 90%; }
+    .cardtitle { text-align: center; }
+    .navlinks { width: 100%; justify-content: center; border: top white; }
+
+
+}
+/* ==========================================================================*/
+
+.header {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    clear: both;
+}
+
+.headercontainer {
+    width: fill;
+    display: flex;
+    width: 100%;
+}
+
+section.exc8_HeroSection {
+    width: fill;
+    height: 95%;
+    margin: -.50em;
+}
+
+.navbar {
+    height: auto;
+    text-align: center;
+    background-color: rgba(69, 48, 43); 
     display: flex;
     justify-content: center;
-    padding: 1em .4em 1em .4em;
-    font-size: small;
-    background-color: lightcyan;
+    position: fixed;
+    top: 0%;
+    right: 20%;
+    left: 0%;
+    margin-right: 10%;
+    width: 100%;
+}
+
+ul.flexNav
+{
+    text-align: center;
+}
+
+a.flexNav {
+    color: #F9F9F9;
+    padding: 15px 80px;
+    text-decoration: none;
+}
+
+a.flexNav:hover {
+    background-color: rgba(69, 38, 33, .9); 
+    transform: scale(1.01);
+    font-size: 1.01em;
+    text-decoration: none;
+}
+
+.maincontainer {
+    width: 100%;
+    margin: 2em .5em;
+    margin-bottom: 40%;
+    height: auto;
+    border: solid 1px;
+}
+
+.samplecontainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 10%;
+    border: solid 1px grey;
+    clear: both;
+}
+
+.sampleImage
+{
+    width: 100%;
+    height: 100%;
+    padding: .01em;
+    border-radius: 3px;
+}
+
+.introImage1
+{
+    width: 100%;
+    height: 100%;
+    padding: .1em;
+    border-radius: 3px;
+    box-shadow: -10px 10px 5px #5E3F9F;
+}
+
+.leftblock1 {
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+
+.rightblock1 {
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+.imageblock {
+    width: 100%;
+    border: solid 1px blue;
+    align-items: flex-start;
+    float: right;
+}
+
+.textblock {
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    float: left;
+}
+
+.infosection1 {
+    width: 92%;
+    justify: bottom;
+    text-align: justify;
+}
+
+.heroinfo {
+    background-color: rgba(69, 48, 43, .9); 
+    top:10%;
+    bottom: 30%;
+    left: -30%;
+    right: 0%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.heroinfo a:hover {
+    background: rgba(69, 48, 43, .50);
+}
+
+.herotext {
+    display: block;
+    padding: 10px 25px;
+    color: black;
+
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.sectionTitle {
+    display: flex;
+    text-align: justify;
+    padding: auto;
+    margin: 3em;
+    justify-content: left;
+    color: #F1D4A9;
+}
+
+p { text-align: justify; padding: auto; }
+
+p.msg
+{
+    font-family: "Times"; font-size: large; text-indent: 1em;
+    font-stretch: normal; color: black;
+	 position: static ; left: -30%; top: -10%; bottom: 10%; }
+
+em#parag { justify: top;font-weight: bolder; color: black; font-size: 175%; }
+
+
+h2.linkFont { font: monospace; color: black; position: static; top: -5%; left: 0%; }
+
+.footercontainer {
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    width: 100% ;
+    height: auto;
+    margin-bottom: -1%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-small;
+    text-align: center; 
+    background-color: lightgray;
     border-radius: 2px;
 }
-	
+
+.images {
+    width: 100%;
+    margin: black 10%;
+}
+
+.slides {
+    width: 100%;
+    border: solid 1px blue;
+    text-shadow: 0px 10px 20px #023141;
+}
+
 .footercustomer, .footerfollow, .footermyaccount {
     width: 30%;
     padding: 0em 1em;
-    margin-left: -40px;
     text-align: left;
 }
 
